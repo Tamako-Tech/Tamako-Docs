@@ -92,7 +92,7 @@ function Home() {
                 'button button--inline button--primary button--lg',
                 styles.getStarted,
               )}
-              href={'https://support.tamakobot.tk'}>
+              href={'https://support.tamako.tech'}>
               Join Support Server
             </Link>
             <Link

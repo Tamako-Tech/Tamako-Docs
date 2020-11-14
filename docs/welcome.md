@@ -6,7 +6,7 @@ sidebar_label: Home
 description: Tamako is a simple yet Powerful Discord bot. Main Purpose of Tamako is to reduce number of bots and use Tamako as all in one bot
 hide_table_of_contents: true
 ---
-## &ensp;Welcome to [Tamako](https://invite.tamakobot.tk/) Docs
+## &ensp;Welcome to [Tamako](https://invite.tamako.tech/) Docs
 &ensp;&ensp;
 ###### &ensp;&ensp;A multifunctional **Discord Bot**, to satisfy all your needs
 ---
@@ -26,10 +26,10 @@ Tamako can:
 
 
 ### Invite
-You may invite Tamako through https://invite.tamakobot.tk/.
+You may invite Tamako through https://invite.tamako.tech/.
 
 ### Support
-If you have questions regarding the bot and it's use, please do join our support server at https://support.tamakobot.tk/.
+If you have questions regarding the bot and it's use, please do join our support server at https://support.tamako.tech/.
 
 ## Options
 
