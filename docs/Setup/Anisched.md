@@ -14,7 +14,7 @@ A feature that uses the [AniList API](https://anilist.co/) to retrieve the airin
 <br />
 
 ### Preparing the bot and your server
-:::caution
+:::warning Permissions Required
 Before you start everything, make sure Tamako has the necessary Permissions `SEND_MESSAGES`, `EMBED_LINKS` so that announcements are sent on a set channel
 :::
 <br /><br />
@@ -35,7 +35,7 @@ Before you start everything, make sure Tamako has the necessary Permissions `SEN
 
 <img src={require('../assets/watch.png').default} />
 
-:::note
+:::note Accepted Urls
 Take note that the only accepted URLs are from [MyAnimeList](https://myanimelist.net/) and [AniList](https://myanimelist.net/).<br/>Wait for a confirmation from the bot. If the anime is already listed on your server, the anime will not be added, but you will be notified instead that the URL you submitted is already listed.<br/>Finished or Cancelled anime series cannot be added, but you can add upcoming anime as long as it has an official entry on AniList.
 :::
 

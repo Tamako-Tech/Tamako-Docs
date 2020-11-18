@@ -8,7 +8,7 @@ hide_table_of_contents: true
 ---
 ## &ensp;Welcome to [Tamako](https://invite.tamako.tech/) Docs
 &ensp;&ensp;
-###### &ensp;&ensp;A multifunctional **Discord Bot**, to satisfy all your needs
+###### &ensp;&ensp;Tamako is a simple yet Powerful Discord bot. Main Purpose of Tamako is to reduce number of bots and use Tamako as all in one bot
 ---
 <br />
 

@@ -6,7 +6,7 @@ sidebar_label: Proxy System
 
 ## Introduction
 This is a method to proxy user messages using webhooks.
-:::warning
+:::warning Permissions Required
 The Bot must Have `MANAGE_WEBHOOKS` and `MANAGE_MESSAGES` perms for this feature to work.
 :::
 
@@ -35,7 +35,7 @@ You can execute `t!describe <name> clear/remove/none/delete` to delete the descr
 ### Changing the Proxy Avatar
 To Change the Proxy Avatar, type ```t!proxyavatar Bear https://upload.wikimedia.org/wikipedia/commons/7/71/2010-kodiak-bear-1.jpg```<br/>
 Alternatively, you can even upload the pic
-:::warning
+:::warning Storage Of Image
 if the message/picture gets deleted, your proxy's Profile pic will not be available so it is recommend you to upload it somewhere else and provide a url instead
 :::
 This will change the proxy avatar to the one you just mentioned

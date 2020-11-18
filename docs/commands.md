@@ -74,7 +74,7 @@ You can get detailed help by doing `t!help <commandname>`
 | ```t!leave```      | Leaves the current voice channel.          |
 
 There is a whole library for SoundBoards
-:::note
+:::note Sounds Available
 `alarm`   `ayaya`   `call-of-the-witch`   `car-crash`   `cat`   `cow`   `dun-dun-dun`   `electric-zoo`   `error`   `fbi-open-up`   `hello-there`   `here-we-go-again`   `laugh-track`   `my-swamp`   `nipah` <br/>  `noot-noot`   `onee-chan`   `pikachu`   `rooster`   `sad-violin`   `slow-clap`   `steve-hurt`   <br/>`subaru-ringtone`   `windows-start-up`   `you-got-mail`   `or you-what`
 :::
 You can troll your friends by these soundboard library<br/>
@@ -83,7 +83,7 @@ To use it you can either type ```t!soundboard [libray-name]``` or <br/>Type ```t
 ## Economy
 :::important
 
-Need to have xp system enabled in the guild, you can do that by doing `t!pointsystem help`<br/>
+Need to have xp system enabled in the guild, you can do that by doing `t!toggleeconomy`<br/>
 [Click Here](./Setup/Point_System#economy-system) to see how to enable
 :::
 
