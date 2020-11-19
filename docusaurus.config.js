@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Tamako',
   tagline: 'Multipurpose Discord Bot',
-  url: 'https://shipbot.gq/',
+  url: 'https://tamako.tech/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/logo.png',
@@ -44,7 +44,16 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Tamako Bot, Made By Bear#3437 | Built with Discord.js`,
     },
   },
+ plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
 
+        hashed: true,
+      	indexDocs: true
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
