@@ -486,7 +486,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!word-spud` | Hot potato, but with words.
 
 ### Meme Generators
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!3000-years` | Draws an image or a user's avatar over Pokémon's "It's been 3000 years" meme.
 | `t!alert` | Sends a Presidential Alert message with the text of your choice.
@@ -634,7 +634,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!yu-gi-oh-token` | Draws an image or a user's avatar over a blank Yu-Gi-Oh! Token card.
 | `t!zero-dialogue` | Sends a text box from Megaman Zero with the quote of your choice.
 
-### Avatar Manipulation
+#### Avatar Manipulation
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!avatar-fusion` | Draws a a user's avatar over a user's avatar.
@@ -735,7 +735,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | ```t!resume```   | Resume the paused music                   |
 | ```t!stop```     | Stops the music                           |
 
-### Fun in VoiceChat
+#### Fun in VoiceChat
 
 | Commands           | Usage                                      |
 |--------------------|--------------------------------------------|
