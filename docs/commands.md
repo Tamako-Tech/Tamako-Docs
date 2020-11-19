@@ -181,7 +181,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!userinfo` | Fetch User Information
 
 ## Events
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!anime-airing` | Responds with a list of the anime that air today.
 | `t!apod` | Responds with today's Astronomy Picture of the Day.
@@ -202,7 +202,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 
 
 ## Search For Stuff
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | Description |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | Description |
 | ------- | ----------- |
 | `t!anime` | Searches AniList for your query, getting anime results.
 | `t!aniquote` | Generate a random anime quote
@@ -294,8 +294,25 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!zodiac-sign` | Responds with the Zodiac Sign for the given month/day.
 
 ## Fun
+### Randomizers
 
-### Random Response
+#### Seeded Randomizers
+| Command | Description |
+| ------- | ----------- |
+| `t!butt` | Determines a user's butt quality.
+| `t!coolness` | Determines a user's coolness.
+| `t!cuteness` | Determines a user's cuteness.
+| `t!dick` | Determines your dick size. (NSFW)
+| `t!friendship` | Determines how good friends two users are.
+| `t!guess-looks` | Guesses what a user looks like.
+| `t!iq` | Determines a user's IQ.
+| `t!psycho-pass` | Determines your Crime Coefficient.
+| `t!ship` | Ships two users together.
+| `t!smash-or-pass` | Determines if a user is worthy of a smash or a pass.
+| `t!thicc` | Determines how thicc you are.
+| `t!worth` | Determines how much a user is worth.
+
+#### Random Response
 | Command | Description |
 | ------- | ----------- |
 | `t!8-ball` | Asks your question to the Magic 8 Ball.
@@ -348,7 +365,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!word` | Responds with a random word.
 | `t!would-you-rather` | Responds with a random "Would you rather ...?" question.
 
-### Random Image
+#### Random Image
 | Command | Description |
 | ------- | ----------- |
 | `t!ai-artwork` | Responds with randomly generated artwork.
@@ -381,24 +398,9 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!sloths` | Get a picture sloth
 | `t!xiao` | Responds with a random image of Xiao Pai.
 
-### Seeded Randomizers
-| Command | Description |
-| ------- | ----------- |
-| `t!butt` | Determines a user's butt quality.
-| `t!coolness` | Determines a user's coolness.
-| `t!cuteness` | Determines a user's cuteness.
-| `t!dick` | Determines your dick size. (NSFW)
-| `t!friendship` | Determines how good friends two users are.
-| `t!guess-looks` | Guesses what a user looks like.
-| `t!iq` | Determines a user's IQ.
-| `t!psycho-pass` | Determines your Crime Coefficient.
-| `t!ship` | Ships two users together.
-| `t!smash-or-pass` | Determines if a user is worthy of a smash or a pass.
-| `t!thicc` | Determines how thicc you are.
-| `t!worth` | Determines how much a user is worth.
 
-### Single Response
-| Command | Description |
+#### Single Response
+| &nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!test` | testdescr
 | `t!mangarandom` | Generates a random manga recommendation. You can add -discover parameter to generate a handpicked recommendations for a user
@@ -423,10 +425,10 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!wynaut` | Why not? Wynaut?
 | `t!yoff` | Posts a picture that truly defines modern art.
 
+### Games
 
-
-### Single-Player Games
-| Command | Description |
+#### Single-Player Games
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!akinator` | Think about a real or fictional character, I will try to guess who it is.
 | `t!anagramica` | Try to find all the anagrams for a given set of letters.
@@ -460,8 +462,8 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!whos-that-pokemon` | Guess who that Pokémon is.
 | `t!will-you-press-the-button` | Responds with a random "Will You Press The Button?" dilemma.
 
-### Multi-Player Games
-| Command | Description |
+#### Multi-Player Games
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!balloon-pop` | Don't let yourself be the last one to pump the balloon before it pops!
 | `t!battle` | Engage in a turn-based battle against another user or the AI.
@@ -483,8 +485,74 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!word-chain` | Try to come up with words that start with the last letter of your opponent's word.
 | `t!word-spud` | Hot potato, but with words.
 
-### Image Manipulation
-| Command | Description |
+### Meme Generators
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
+| ------- | ----------- |
+| `t!3000-years` | Draws an image or a user's avatar over Pokémon's "It's been 3000 years" meme.
+| `t!alert` | Sends a Presidential Alert message with the text of your choice.
+| `t!bart-chalkboard` | Sends a "Bart Chalkboard" meme with the text of your choice.
+| `t!be-like-bill` | Sends a "Be Like Bill" meme with the name of your choice.
+| `t!beautiful` | Draws a user's avatar over Gravity Falls' "Oh, this? This is beautiful." meme.
+| `t!boardroom-meeting` | Sends a "Boardroom Meeting" meme with the text of your choice.
+| `t!catch` | Catch users, revealing who is something.
+| `t!challenger` | Draws an image or a user's avatar over Smash Bros.'s "Challenger Approaching" screen.
+| `t!change-my-mind` | Sends a "Change My Mind" meme with the text of your choice.
+| `t!chi-idea` | Sends a "Daddy, I've got an idea!" Takagi-san meme with the text of your choice.
+| `t!cursed-sponge` | Sends a cursed sponge duplicated however many times you want.
+| `t!dear-liberals` | Sends a "Dear Liberals" meme with words of your choice.
+| `t!deep-fry` | Draws an image or a user's avatar but deep-fried.
+| `t!demotivational` | Draws an image or a user's avatar and the text you specify as a demotivational poster.
+| `t!dislike` | Sends an "Everyone Disliked That" meme with the image of your choice.
+| `t!distracted-boyfriend` | Draws three user's avatars over the "Distracted Boyfriend" meme.
+| `t!drakeposting` | Sends a "Drakeposting" meme with the text of your choice.
+| `t!edd-facts-book` | Sends a "Double D's Facts Book" meme with the fact of your choice.
+| `t!enslaved` | Sends a "Ah yes, enslaved" meme with the image and text of your choice.
+| `t!food-broke` | Draws a user's avatar over the "Food Broke" meme.
+| `t!for-five-hours` | Sends an "I've looked at this for 5 hours now" meme with the image of your choice.
+| `t!genie-rules` | Sends a "There are 4 rules" meme with the text of your choice.
+| `t!girl-worth-fighting-for` | Draws an image or a user's avatar as the object of Ling's affection.
+| `t!gru-plan` | Sends a Gru's Plan meme with steps of your choice.
+| `t!i-fear-no-man` | Sends a "I fear no man" meme with the text of your choice.
+| `t!if-those-kids-could-read` | Sends a "If those kids could read, they'd be very upset" meme with the text of your choice.
+| `t!illegal` | Makes President Trump make your text illegal.
+| `t!kyon-gun` | Draws an image or a user's avatar behind Kyon shooting a gun.
+| `t!like` | Sends an "Everyone Liked That" meme with the image of your choice.
+| `t!lisa-presentation` | Sends a "Lisa Presentation" meme with the presentation of your choice.
+| `t!look-at-this-photograph` | Draws an image or a user's avatar over Nickelback's photograph.
+| `t!look-what-karen-have` | Draws an image or a user's avatar over Karen's piece of paper.
+| `t!mario-bros-views` | Sends a "Mario Bros. Views" meme with the text of your choice.
+| `t!meme-gen-classic` | Sends a meme with the text and background of your choice.
+| `t!meme-gen-modern` | Sends a meme with the text and image of your choice.
+| `t!metamorphosis` | Sends a "My Metamorphosis Begins" meme with the image and text of your choice.
+| `t!my-collection-grows` | Sends a "My collection grows richer" Nekopara meme with the text of your choice.
+| `t!new-password` | Sends a "Weak Password/Strong Password" meme with the passwords of your choice.
+| `t!nike-ad` | Sends a "Believe in Something" Nike Ad meme with the text of your choice.
+| `t!panik-kalm-panik` | Sends a "Panik, Kalm, Panik" meme with the text of your choice.
+| `t!phoebe-teaching-joey` | Sends a "Phoebe Teaching Joey" meme with text of your choice.
+| `t!pills` | Sends a "Hard to Swallow Pills" meme with the text of your choice.
+| `t!plankton-plan` | Sends a Plankton's Plan meme with steps of your choice.
+| `t!pogchamp` | Sends a pogchamp duplicated however many times you want.
+| `t!scroll-of-truth` | Sends a "Scroll of Truth" meme with the text of your choice.
+| `t!skyrim-skill` | Sends a "Skyrim Skill" meme with the skill and image of your choice.
+| `t!sonic-says` | Sends a "Sonic Says" meme with the quote of your choice.
+| `t!sora-selfie` | Draws an image or a user's avatar behind Sora taking a selfie.
+| `t!sos` | Sends a "Esther Verkest's Help Sign" comic with the text of your choice.
+| `t!spiderman-pointing` | Sends a "Spiderman Pointing at Spiderman" meme with the text of your choice.
+| `t!spongebob-burn` | Sends a "Spongebob Throwing Something into a Fire" meme with words of your choice.
+| `t!that-sign-wont-stop-me` | Sends a "That Sign Won't Stop Me, I Can't read!" meme with the presentation of your choice.
+| `t!this-guy` | Draws an image or a user's avatar over the "Get a load of this guy" meme.
+| `t!thug-life` | Draws "Thug Life" over an image or a user's avatar.
+| `t!to-be-continued` | Draws an image with the "To Be Continued..." arrow.
+| `t!tuxedo-pooh` | Sends a "Tuxedo Winnie the Pooh" meme with the text of your choice.
+| `t!two-buttons` | Sends a "Two Buttons" meme with the buttons of your choice.
+| `t!ultimate-tattoo` | Draws an image or a user's avatar as "The Ultimate Tattoo".
+| `t!vietnam-flashbacks` | Edits Vietnam flashbacks behind an image or a user's avatar.
+| `t!worse-than-hitler` | Draws a user's avatar over Family Guy's "Worse Than Hitler" meme.
+| `t!worthless` | Draws an image or a user's avatar over Gravity Falls' "This is worthless." meme.
+
+### Manipulation
+#### Image Manipulation
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!ace-attorney` | Sends a text box from Ace Attorney with the quote and character of your choice.
 | `t!achievement` | Sends a Minecraft achievement with the text of your choice.
@@ -567,7 +635,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!zero-dialogue` | Sends a text box from Megaman Zero with the quote of your choice.
 
 ### Avatar Manipulation
-| Command | Description |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!avatar-fusion` | Draws a a user's avatar over a user's avatar.
 | `t!chocolate-milk` | Draws a user's avatar holding chocolate milk.
@@ -584,72 +652,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!triggered` | Draws a user's avatar over the "Triggered" meme.
 | `t!wasted` | Wasted users
 
-## Meme Generators
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
-| ------- | ----------- |
-| `t!3000-years` | Draws an image or a user's avatar over Pokémon's "It's been 3000 years" meme.
-| `t!alert` | Sends a Presidential Alert message with the text of your choice.
-| `t!bart-chalkboard` | Sends a "Bart Chalkboard" meme with the text of your choice.
-| `t!be-like-bill` | Sends a "Be Like Bill" meme with the name of your choice.
-| `t!beautiful` | Draws a user's avatar over Gravity Falls' "Oh, this? This is beautiful." meme.
-| `t!boardroom-meeting` | Sends a "Boardroom Meeting" meme with the text of your choice.
-| `t!catch` | Catch users, revealing who is something.
-| `t!challenger` | Draws an image or a user's avatar over Smash Bros.'s "Challenger Approaching" screen.
-| `t!change-my-mind` | Sends a "Change My Mind" meme with the text of your choice.
-| `t!chi-idea` | Sends a "Daddy, I've got an idea!" Takagi-san meme with the text of your choice.
-| `t!cursed-sponge` | Sends a cursed sponge duplicated however many times you want.
-| `t!dear-liberals` | Sends a "Dear Liberals" meme with words of your choice.
-| `t!deep-fry` | Draws an image or a user's avatar but deep-fried.
-| `t!demotivational` | Draws an image or a user's avatar and the text you specify as a demotivational poster.
-| `t!dislike` | Sends an "Everyone Disliked That" meme with the image of your choice.
-| `t!distracted-boyfriend` | Draws three user's avatars over the "Distracted Boyfriend" meme.
-| `t!drakeposting` | Sends a "Drakeposting" meme with the text of your choice.
-| `t!edd-facts-book` | Sends a "Double D's Facts Book" meme with the fact of your choice.
-| `t!enslaved` | Sends a "Ah yes, enslaved" meme with the image and text of your choice.
-| `t!food-broke` | Draws a user's avatar over the "Food Broke" meme.
-| `t!for-five-hours` | Sends an "I've looked at this for 5 hours now" meme with the image of your choice.
-| `t!genie-rules` | Sends a "There are 4 rules" meme with the text of your choice.
-| `t!girl-worth-fighting-for` | Draws an image or a user's avatar as the object of Ling's affection.
-| `t!gru-plan` | Sends a Gru's Plan meme with steps of your choice.
-| `t!i-fear-no-man` | Sends a "I fear no man" meme with the text of your choice.
-| `t!if-those-kids-could-read` | Sends a "If those kids could read, they'd be very upset" meme with the text of your choice.
-| `t!illegal` | Makes President Trump make your text illegal.
-| `t!kyon-gun` | Draws an image or a user's avatar behind Kyon shooting a gun.
-| `t!like` | Sends an "Everyone Liked That" meme with the image of your choice.
-| `t!lisa-presentation` | Sends a "Lisa Presentation" meme with the presentation of your choice.
-| `t!look-at-this-photograph` | Draws an image or a user's avatar over Nickelback's photograph.
-| `t!look-what-karen-have` | Draws an image or a user's avatar over Karen's piece of paper.
-| `t!mario-bros-views` | Sends a "Mario Bros. Views" meme with the text of your choice.
-| `t!meme-gen-classic` | Sends a meme with the text and background of your choice.
-| `t!meme-gen-modern` | Sends a meme with the text and image of your choice.
-| `t!metamorphosis` | Sends a "My Metamorphosis Begins" meme with the image and text of your choice.
-| `t!my-collection-grows` | Sends a "My collection grows richer" Nekopara meme with the text of your choice.
-| `t!new-password` | Sends a "Weak Password/Strong Password" meme with the passwords of your choice.
-| `t!nike-ad` | Sends a "Believe in Something" Nike Ad meme with the text of your choice.
-| `t!panik-kalm-panik` | Sends a "Panik, Kalm, Panik" meme with the text of your choice.
-| `t!phoebe-teaching-joey` | Sends a "Phoebe Teaching Joey" meme with text of your choice.
-| `t!pills` | Sends a "Hard to Swallow Pills" meme with the text of your choice.
-| `t!plankton-plan` | Sends a Plankton's Plan meme with steps of your choice.
-| `t!pogchamp` | Sends a pogchamp duplicated however many times you want.
-| `t!scroll-of-truth` | Sends a "Scroll of Truth" meme with the text of your choice.
-| `t!skyrim-skill` | Sends a "Skyrim Skill" meme with the skill and image of your choice.
-| `t!sonic-says` | Sends a "Sonic Says" meme with the quote of your choice.
-| `t!sora-selfie` | Draws an image or a user's avatar behind Sora taking a selfie.
-| `t!sos` | Sends a "Esther Verkest's Help Sign" comic with the text of your choice.
-| `t!spiderman-pointing` | Sends a "Spiderman Pointing at Spiderman" meme with the text of your choice.
-| `t!spongebob-burn` | Sends a "Spongebob Throwing Something into a Fire" meme with words of your choice.
-| `t!that-sign-wont-stop-me` | Sends a "That Sign Won't Stop Me, I Can't read!" meme with the presentation of your choice.
-| `t!this-guy` | Draws an image or a user's avatar over the "Get a load of this guy" meme.
-| `t!thug-life` | Draws "Thug Life" over an image or a user's avatar.
-| `t!to-be-continued` | Draws an image with the "To Be Continued..." arrow.
-| `t!tuxedo-pooh` | Sends a "Tuxedo Winnie the Pooh" meme with the text of your choice.
-| `t!two-buttons` | Sends a "Two Buttons" meme with the buttons of your choice.
-| `t!ultimate-tattoo` | Draws an image or a user's avatar as "The Ultimate Tattoo".
-| `t!vietnam-flashbacks` | Edits Vietnam flashbacks behind an image or a user's avatar.
-| `t!worse-than-hitler` | Draws a user's avatar over Family Guy's "Worse Than Hitler" meme.
-| `t!worthless` | Draws an image or a user's avatar over Gravity Falls' "This is worthless." meme.
-
-### Text Manipulation
+#### Text Manipulation
 | Command | Description |
 | ------- | ----------- |
 | `t!base64` | Converts text to/from Base64.
@@ -698,8 +701,8 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!yoda` | Converts text to Yoda speak.
 | `t!zalgo` | Converts text to zalgo.
 
-## Number Manipulation
-| Command | Description |
+#### Number Manipulation
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Description |
 | ------- | ----------- |
 | `t!currency` | Converts currency from one currency to another.
 | `t!final-grade` | Determines the grade you need to make on your final to get your desired course grade.
@@ -712,7 +715,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!tax` | Determines the total cost of something plus tax.
 | `t!units` | Converts units to/from other units.
 
-## Voice
+## Music and Sounboard
 
 | Commands         | Usage                                     |
 |------------------|-------------------------------------------|
