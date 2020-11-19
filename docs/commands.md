@@ -5,7 +5,7 @@ description: You can get detailed help by doing `t!help <commandname>`
 hide_title: False
 sidebar_label: Commands Available
 ---
-### Roleplay
+## Roleplay
 | Command | Description |
 | ------- | ----------- |
 | `t!baka` | BAKA
@@ -34,7 +34,7 @@ sidebar_label: Commands Available
 | `t!wave` | Waves at a user.
 | `t!wink` | Winks at a user.
 
-### Setup
+## Setup
 | Command | Description |
 | ------- | ----------- |
 | `t!disableanisched` | Disable the anisched feature for this server
@@ -57,7 +57,7 @@ sidebar_label: Commands Available
 | `t!xpreset` | Reset the xp of everyone in this server
 | `t!xptoggle` | Toggle the xp system on/off for the server.
 
-### Ticket Support System
+## Ticket Support System
 | Command | Description |
 | ------- | ----------- |
 | `t!add` | Add users to a ticket
@@ -82,7 +82,7 @@ sidebar_label: Commands Available
 | `t!unbind` | Unbind the ticket starter reaction from a custom message
 | `t!userlimit` | Set server limit for how many people can be added to a ticket via the add command.(default is 10)
 
-### Moderation
+## Moderation
 | Command | Description |
 | ------- | ----------- |
 | `t!addemoji` | Add an emoji to the server via the supplied link
@@ -102,7 +102,7 @@ sidebar_label: Commands Available
 | `t!unmute` | Unmutes a muted user
 
 
-### Proxy - Multiple Accounts
+## Proxy - Multiple Accounts
 | Command | Description |
 | ------- | ----------- |
 | `t!brackets` | View or change a proxys brackets
@@ -124,7 +124,7 @@ sidebar_label: Commands Available
 | `t!tag` | Remove or change a proxys tag (displayed next to name when proxying)
 | `t!togglebrackets` | Toggles whether the brackets are included or stripped in proxied messages for the given proxy
 
-### Utility
+## Utility
 | Command | Description |
 | ------- | ----------- |
 | `t!cloc` | Responds with the bot's code line count.
@@ -144,7 +144,7 @@ sidebar_label: Commands Available
 | `t!stats` | Responds with detailed bot information.
 | `t!suggest` | Suggest Something for the server
 
-### Economy
+## Economy
 :::important Enable Economy System
 
 Need to have xp system enabled in the guild, you can do that by doing `t!toggleeconomy`<br/>
@@ -163,7 +163,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!transfer` | Give some of your coins to your friends!
 | `t!withdraw` | Withdraw your money from the bank
 
-### Discord Information
+## Discord Information
 | Command | Description |
 | ------- | ----------- |
 | `t!avatar` | Responds with a user's avatar.
@@ -180,8 +180,8 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!serverinfo` | Give Server Stats
 | `t!userinfo` | Fetch User Information
 
-### Events
-| Command | Description |
+## Events
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!anime-airing` | Responds with a list of the anime that air today.
 | `t!apod` | Responds with today's Astronomy Picture of the Day.
@@ -201,8 +201,8 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!today-in-history` | Responds with an event that occurred today in history.
 
 
-### Search For Stuff
-| Command | Description |
+## Search For Stuff
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | Description |
 | ------- | ----------- |
 | `t!anime` | Searches AniList for your query, getting anime results.
 | `t!aniquote` | Generate a random anime quote
@@ -274,7 +274,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!youtube` | Searches YouTube for your query.
 | `t!yu-gi-oh` | Responds with info on a Yu-Gi-Oh! card.
 
-### Analyzers
+## Analyzers
 | Command | Description |
 | ------- | ----------- |
 | `t!age` | Responds with how old someone born in a certain year is.
@@ -293,9 +293,9 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!what-anime` | Determines what anime a screenshot is from.
 | `t!zodiac-sign` | Responds with the Zodiac Sign for the given month/day.
 
-### Fun
+## Fun
 
-#### Random Response
+### Random Response
 | Command | Description |
 | ------- | ----------- |
 | `t!8-ball` | Asks your question to the Magic 8 Ball.
@@ -348,7 +348,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!word` | Responds with a random word.
 | `t!would-you-rather` | Responds with a random "Would you rather ...?" question.
 
-#### Random Image
+### Random Image
 | Command | Description |
 | ------- | ----------- |
 | `t!ai-artwork` | Responds with randomly generated artwork.
@@ -381,7 +381,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!sloths` | Get a picture sloth
 | `t!xiao` | Responds with a random image of Xiao Pai.
 
-#### Seeded Randomizers
+### Seeded Randomizers
 | Command | Description |
 | ------- | ----------- |
 | `t!butt` | Determines a user's butt quality.
@@ -397,7 +397,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!thicc` | Determines how thicc you are.
 | `t!worth` | Determines how much a user is worth.
 
-#### Single Response
+### Single Response
 | Command | Description |
 | ------- | ----------- |
 | `t!test` | testdescr
@@ -425,7 +425,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 
 
 
-#### Single-Player Games
+### Single-Player Games
 | Command | Description |
 | ------- | ----------- |
 | `t!akinator` | Think about a real or fictional character, I will try to guess who it is.
@@ -460,7 +460,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!whos-that-pokemon` | Guess who that Pokémon is.
 | `t!will-you-press-the-button` | Responds with a random "Will You Press The Button?" dilemma.
 
-#### Multi-Player Games
+### Multi-Player Games
 | Command | Description |
 | ------- | ----------- |
 | `t!balloon-pop` | Don't let yourself be the last one to pump the balloon before it pops!
@@ -483,7 +483,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!word-chain` | Try to come up with words that start with the last letter of your opponent's word.
 | `t!word-spud` | Hot potato, but with words.
 
-#### Image Manipulation
+### Image Manipulation
 | Command | Description |
 | ------- | ----------- |
 | `t!ace-attorney` | Sends a text box from Ace Attorney with the quote and character of your choice.
@@ -566,7 +566,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!yu-gi-oh-token` | Draws an image or a user's avatar over a blank Yu-Gi-Oh! Token card.
 | `t!zero-dialogue` | Sends a text box from Megaman Zero with the quote of your choice.
 
-#### Avatar Manipulation
+### Avatar Manipulation
 | Command | Description |
 | ------- | ----------- |
 | `t!avatar-fusion` | Draws a a user's avatar over a user's avatar.
@@ -584,8 +584,8 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!triggered` | Draws a user's avatar over the "Triggered" meme.
 | `t!wasted` | Wasted users
 
-### Meme Generators
-| Command | Description |
+## Meme Generators
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
 | `t!3000-years` | Draws an image or a user's avatar over Pokémon's "It's been 3000 years" meme.
 | `t!alert` | Sends a Presidential Alert message with the text of your choice.
@@ -649,7 +649,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!worse-than-hitler` | Draws a user's avatar over Family Guy's "Worse Than Hitler" meme.
 | `t!worthless` | Draws an image or a user's avatar over Gravity Falls' "This is worthless." meme.
 
-#### Text Manipulation
+### Text Manipulation
 | Command | Description |
 | ------- | ----------- |
 | `t!base64` | Converts text to/from Base64.
@@ -698,7 +698,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | `t!yoda` | Converts text to Yoda speak.
 | `t!zalgo` | Converts text to zalgo.
 
-### Number Manipulation
+## Number Manipulation
 | Command | Description |
 | ------- | ----------- |
 | `t!currency` | Converts currency from one currency to another.
@@ -732,7 +732,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!togglee
 | ```t!resume```   | Resume the paused music                   |
 | ```t!stop```     | Stops the music                           |
 
-#### Fun in VoiceChat
+### Fun in VoiceChat
 
 | Commands           | Usage                                      |
 |--------------------|--------------------------------------------|
@@ -750,7 +750,7 @@ You can troll your friends by these soundboard library<br/>
 To use it you can either type ```t!soundboard [libray-name]``` or <br/>Type ```t!soundboard``` and Tamako will give you the list to choose from
 
 
-### Phone
+## Phone
 | Command | Description |
 | ------- | ----------- |
 | `t!admin-phone` | Starts an admin phone call with a server. (Owner-Only)
@@ -760,7 +760,7 @@ To use it you can either type ```t!soundboard [libray-name]``` or <br/>Type ```t
 | `t!phone-info` | Gives information on the current phone call.
 | `t!phone` | Starts a phone call with a random server.
 
-### NSFW
+## NSFW
 | Command | Description |
 | ------- | ----------- |
 | `t!4k` | 4k images
@@ -791,7 +791,7 @@ To use it you can either type ```t!soundboard [libray-name]``` or <br/>Type ```t
 >```
 
 
-### Other
+## Other
 | Command | Description |
 | ------- | ----------- |
 | `t!dating` | Find the person of your dreams with this dating system!
@@ -803,7 +803,7 @@ To use it you can either type ```t!soundboard [libray-name]``` or <br/>Type ```t
 | `t!strawpoll` | Generates a Strawpoll with the options you provide.
 | `t!timer` | Sets a timer for anywhere from 1 second to 10 minutes.
 
-### Automatic Response
+## Automatic Response
 | Command | Description |
 | ------- | ----------- |
 | `t!no-u` | no u
