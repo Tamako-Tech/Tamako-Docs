@@ -1,7 +1,7 @@
 ---
 id: Commands
 title: Commands Avaliable For Tamako
-description: You can get detailed help by doing `t!help <commandname>`
+description: This is a List Of all the Commands Available For Tamako
 hide_title: False
 sidebar_label: Commands Available
 ---
