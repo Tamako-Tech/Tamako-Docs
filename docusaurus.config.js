@@ -26,13 +26,11 @@ module.exports = {
       items: [
         {
           to: 'docs/welcome',
-          activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
         {
-            to: 'api/chatapi',
-            activeBasePath: 'api',
+            to: 'docs/api/chatapi',
             label: 'API',
             position: 'right',
           },
