@@ -29,7 +29,8 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 
   <TabItem value="response"><img src={require('./assets/greendot.png').default} height='15'/>Status OK
-```title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
+
+```
 {
   "api":"TamakoBot API",
   "args":{
@@ -41,8 +42,8 @@ import TabItem from '@theme/TabItem';
   "response":"response by the api"
 }
 ```
-<br/>
 
+<br/>
 <img src={require('./assets/reddot.png').default} height='15'/> Wrong Authentication
 
 ```title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
@@ -56,9 +57,11 @@ import TabItem from '@theme/TabItem';
   },
 "response":"null"
 }
-```<br/>
+```
+<br/>
 <img src={require('./assets/reddot.png').default} height='15'/> Missing Query, check if its right
-``` title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
+
+```
 {
 "api":"TamakoBot API",
 "args":{
