@@ -10,7 +10,9 @@ You can Utilise Our Chatbot API but for that you will need to Request Authorisat
 For That, simply [Join the Support server](https://support.tamako.tech) of Tamako and Fill out this [Form](https://api.tamako.tech/)
 
 # Get Cakes
-
+```
+https://api.tamako.tech/chat
+```
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -29,11 +31,16 @@ import TabItem from '@theme/TabItem';
   | authorization | `string` | Authentication-Key You will need to [request this](https://requests.tamako.tech/) |
   | bid | `string` | Once you get approved for the Authentication-Key you will get a bid along with that |
   | message | `string` | The input to the api |
-  | userid | `string` | The bot creates profile / userid so you will either want to mention your app to fetch the userid of the author or predefine it to a single one |
+  | user | `string` | The bot creates profile / userid so you will either want to mention your app to fetch the userid of the author or predefine it to a single one |
 
   </TabItem>
 
   <TabItem value="response">
+  
+  ```
+  https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message
+  ```
+
   <img src={require('../assets/greendot.png').default} height='15'/>Status OK
 
 ```
