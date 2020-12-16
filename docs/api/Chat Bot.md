@@ -27,6 +27,7 @@ import TabItem from '@theme/TabItem';
 | message       | `string` | The input to the api                                                                                                                           |
 | userid        | `string` | The bot creates profile / userid so you will either want to mention your app to fetch the userid of the author or predefine it to a single one |
   </TabItem>
+
   <TabItem value="response"><img src={require('./assets/greendot.png').default} height='15'/>Status OK
 ```jsx title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
@@ -41,7 +42,10 @@ import TabItem from '@theme/TabItem';
   "response":"response by the api"
 }
 ```
+<br/>
+
 <img src={require('./assets/reddot.png').default} height='15'/> Wrong Authentication
+
 ```jsx title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
 "api":"TamakoBot API",
@@ -70,4 +74,5 @@ import TabItem from '@theme/TabItem';
 }
 ```
   </TabItem>
-</Tabs>;
+</Tabs>
+If you still got doubts, Join the [support server](https://support.tamako.tech/)
