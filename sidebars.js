@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: [
+  docs: [
     {
       type: 'category',
       label: 'Getting Started',
@@ -23,4 +23,7 @@ module.exports = {
         'Commands',
 
   ],
+  api: [
+    `api/chatapi`
+  ]
 };
