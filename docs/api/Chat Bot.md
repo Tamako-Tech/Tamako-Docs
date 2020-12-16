@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 
   <TabItem value="response"><img src={require('./assets/greendot.png').default} height='15'/>Status OK
-```json {9} title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
+```title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
   "api":"TamakoBot API",
   "args":{
@@ -45,7 +45,7 @@ import TabItem from '@theme/TabItem';
 
 <img src={require('./assets/reddot.png').default} height='15'/> Wrong Authentication
 
-```json {9} title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
+```title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
 "api":"TamakoBot API",
 "args":{
@@ -56,9 +56,9 @@ import TabItem from '@theme/TabItem';
   },
 "response":"null"
 }
-```
+```<br/>
 <img src={require('./assets/reddot.png').default} height='15'/> Missing Query, check if its right
-```json {9} title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
+``` title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
 "api":"TamakoBot API",
 "args":{
