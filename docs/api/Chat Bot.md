@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 | userid        | `string` | The bot creates profile / userid so you will either want to mention your app to fetch the userid of the author or predefine it to a single one |
   </TabItem>
 
-  <TabItem value="response"><img src={require('./assets/greendot.png').default} height='15'/>Status OK
+  <TabItem value="response"><img src={require('../assets/greendot.png').default} height='15'/>Status OK
 
 ```
 {
@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
 ```
 
 <br/>
-<img src={require('./assets/reddot.png').default} height='15'/> Wrong Authentication
+<img src={require('../assets/reddot.png').default} height='15'/> Wrong Authentication
 
 ```title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
@@ -59,7 +59,7 @@ import TabItem from '@theme/TabItem';
 }
 ```
 <br/>
-<img src={require('./assets/reddot.png').default} height='15'/> Missing Query, check if its right
+<img src={require('../assets/reddot.png').default} height='15'/> Missing Query, check if its right
 
 ```
 {
