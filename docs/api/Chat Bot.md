@@ -24,13 +24,13 @@ import TabItem from '@theme/TabItem';
 
   Query Parameters
 
-  | authorization | `string` | Authentication-Key You will need to [request this](https://requests.tamako.tech/) |
+  | Parameter | type | Value |
   |-|-|-|
+  | authorization | `string` | Authentication-Key You will need to [request this](https://requests.tamako.tech/) |
   | bid | `string` | Once you get approved for the Authentication-Key you will get a bid along with that |
   | message | `string` | The input to the api |
   | userid | `string` | The bot creates profile / userid so you will either want to mention your app to fetch the userid of the author or predefine it to a single one |
-  |  |  |  |
-  
+
   </TabItem>
 
   <TabItem value="response">
