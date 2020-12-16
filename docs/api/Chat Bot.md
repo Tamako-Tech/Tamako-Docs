@@ -20,7 +20,9 @@ import TabItem from '@theme/TabItem';
     {label: 'Request', value: 'request'},
     {label: 'Response', value: 'response'}
   ]}>
-  <TabItem value="request">Query Parameters
+  <TabItem value="request">
+
+  Query Parameters
   | authorization | `string` | Authentication-Key You will need to [request this](https://requests.tamako.tech/)                                                              |
 |---------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | bid           | `string` | Once you get approved for the Authentication-Key you will get a bid along with that                                                            |
@@ -28,7 +30,8 @@ import TabItem from '@theme/TabItem';
 | userid        | `string` | The bot creates profile / userid so you will either want to mention your app to fetch the userid of the author or predefine it to a single one |
   </TabItem>
 
-  <TabItem value="response"><img src={require('../assets/greendot.png').default} height='15'/>Status OK
+  <TabItem value="response">
+  <img src={require('../assets/greendot.png').default} height='15'/>Status OK
 
 ```
 {
@@ -75,4 +78,5 @@ import TabItem from '@theme/TabItem';
 ```
   </TabItem>
 </Tabs>
+
 If you still got doubts, Join the [support server](https://support.tamako.tech/)
