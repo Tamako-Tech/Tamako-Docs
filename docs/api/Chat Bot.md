@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 
   <TabItem value="response"><img src={require('./assets/greendot.png').default} height='15'/>Status OK
-```jsx title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
+```jsx {9} title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
   "api":"TamakoBot API",
   "args":{
@@ -38,7 +38,6 @@ import TabItem from '@theme/TabItem';
     "userid":"userid",
     "incoming_message":"message"
     },
-     // highlight-next-line
   "response":"response by the api"
 }
 ```
@@ -46,7 +45,7 @@ import TabItem from '@theme/TabItem';
 
 <img src={require('./assets/reddot.png').default} height='15'/> Wrong Authentication
 
-```jsx title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
+```jsx {9} title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
 "api":"TamakoBot API",
 "args":{
@@ -55,12 +54,11 @@ import TabItem from '@theme/TabItem';
   "userid":"userid",
   "incoming_message":"message"
   },
-   // highlight-next-line
 "response":"null"
 }
 ```
 <img src={require('./assets/reddot.png').default} height='15'/> Missing Query, check if its right
-```jsx title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
+```jsx {9} title="https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message"
 {
 "api":"TamakoBot API",
 "args":{
@@ -69,7 +67,6 @@ import TabItem from '@theme/TabItem';
   "userid":"",
   "incoming_message":"message"
   },
-   // highlight-next-line
 "response":"missing_arguements"
 }
 ```
