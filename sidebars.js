@@ -26,5 +26,6 @@ module.exports = {
   api: [
     `api/chatapi`,
     `api/animalfactapi`
+    `api/animequoteapi`
   ]
 };
