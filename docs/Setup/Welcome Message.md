@@ -11,7 +11,7 @@ See those fancy messages from another server when a new member joins their serve
 #### 1. Toggling the Member Greeter On
 The first thing we're going to do is to enable the server's member greeter. When Tamako joins on a new server, all the fancy stuffs that Tamako do, including **Member Greeter**, is disabled by default, which is why you have to enable the server's member greeter first. You can enable this by typing the command `t!welcometoggle` and tada! You're set.. No.. But you've already made it the first step!
 
-<img src={require('../assets/Welcome_toggle.png').default} />
+<img src={require('../assets/Welcome-toggle.png').default} />
 <br /><font size='2' color='#c75a83'> Tamako confirming the enabling of this Feature! Way to go!</font><br /><br />
 Similarly, as stated on the message above, if you want to disable this feature in your server, you can do so by typing the command again.
 <br />
@@ -108,7 +108,7 @@ t!setwelcomemsg embed=set -thumbnail:[{avatarDynamic}] -title:[Welcome to **{gui
 //sets the thumbnail, title, color, and footer text of the embed
 ```
 
-<img src={require('../assets/welcome_embed_default .png').default} /> <br />
+<img src={require('../assets/welcome-embed-default .png').default} /> <br />
 <font size='2' color='#c75a83'>All the parameters on the example have successfully been accepted.</font> <br /> <br />
 
 :::tip Worthy to be remembered
@@ -117,18 +117,18 @@ You can set these options on different messages. Example, you set the thumbnail 
 
 Let's test how it looks like:
 
-<img src={require('../assets/welcome_embed_default_test.png').default} /> <br />
+<img src={require('../assets/welcome-embed-default-test.png').default} /> <br />
 <font size='2' color='#c75a83'>Nice, you can see what we've set up here. Title, thumbnail, color, and footer.</font> <br /> <br />
 
 We've successfully set up the embed, but it's kind of boring, there's a big space taking up at the middle of the embed, we will make use of that. now let's do:
 ```
 t!setwelcomemsg embed=set -description:[some random text here] -image:[A valid image URL here]
 ```
-<img src={require('../assets/welcome_customise_.png').default} /> <br /> <br />
+<img src={require('../assets/welcome-customise.png').default} /> <br /> <br />
 
 and test...
 
-<img src={require('../assets/welcome_customise_test.png').default} /> <br />
+<img src={require('../assets/welcome-customise-test.png').default} /> <br />
 <font size='2' color='#c75a83'>Now these looks beautiful than the previous version.</font> <br /> <br />
 
 
@@ -139,12 +139,12 @@ t!setwelcomemsg embed=set -description:[ ] -footer=text:[ ] -title:[ ]
 
 //removes the description, footer text, and the title from the embed
 ```
-<img src={require('../assets/welcome_embed_only_av.png').default} /> <br />
+<img src={require('../assets/welcome-embed-only-av.png').default} /> <br />
 <font size='2' color='#c75a83'>Removing the description, footer text, and the title.</font> <br /> <br />
 
 Now let's test how it turned out.
 
-<img src={require('../assets/welcome_embed_only_av_test.png').default} /> <br />
+<img src={require('../assets/welcome-embed-only-av-test.png').default} /> <br />
 <font size='2' color='#c75a83'>All other properties except the color and the thumbnail have been successfully removed.</font> <br /> <br />
 
 :::info What to look out for when removing fields
