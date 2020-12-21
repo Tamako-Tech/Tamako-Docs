@@ -28,7 +28,7 @@ module.exports = {
   },
     navbar: {
        hideOnScroll: true,
-      title: 'Tamkao - A discord bot',
+      title: 'Tamako - A discord bot',
       logo: {
         alt: 'Tamako',
         src: 'img/logo.png',
