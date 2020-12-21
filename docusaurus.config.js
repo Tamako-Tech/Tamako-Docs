@@ -1,20 +1,30 @@
 module.exports = {
   title: 'Tamako',
   tagline: 'Multipurpose Discord Bot',
-  url: 'https://shipbot.gq/',
+  url: 'https://tamako.tech/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  scripts: [
+  // String format.
+  'https://docusaurus.io/script.js',
+  // Object format.
+  {
+    src:
+      'https://arc.io/widget.min.js#ynoq11ke',
+    async: true,
+  },
+],
   favicon: 'img/logo.png',
-  organizationName: 'Bear', // Usually your GitHub org/user name.
-  projectName: 'Tamako', // Usually your repo name.
+  organizationName: 'BearTS', // Usually your GitHub org/user name.
+  projectName: 'Tamako-Docs',
   themeConfig: {
    announcementBar: {
-    id: 'support_us', // Any value that will identify this message.
+    id: 'support_us',
     content:
        'If you like Tamako, Vote her on <a target="_blank" href="https://top.gg/bot/721100913611112470">top.gg</a> | Invite  my Onnechan <a href="https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303">Mai</a>',
-     backgroundColor: '#fafbfc', // Defaults to `#fff`.
-      textColor: '#091E42', // Defaults to `#000`.
-      isCloseable: true, // Defaults to `true`.
+     backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: true,
   },
     navbar: {
        hideOnScroll: true,
@@ -26,10 +36,14 @@ module.exports = {
       items: [
         {
           to: 'docs/welcome',
-          activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
+        {
+            to: 'docs/api/chatapi',
+            label: 'API',
+            position: 'right',
+          },
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://discord.com/oauth2/authorize?client_id=721100913611112470&scope=bot&permissions=1043721303',
@@ -44,7 +58,16 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Tamako Bot, Made By Bear#3437 | Built with Discord.js`,
     },
   },
+ plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
 
+        hashed: true,
+      	indexDocs: true
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',

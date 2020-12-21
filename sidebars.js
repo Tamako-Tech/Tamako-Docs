@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: [
+  docs: [
     {
       type: 'category',
       label: 'Getting Started',
@@ -7,7 +7,7 @@ module.exports = {
       items: [
         'welcome',
         {
-          Features: [
+          Setup: [
             'Setup/Anischedule' ,
             'Setup/Economy' ,
             'Setup/Counter' ,
@@ -23,4 +23,11 @@ module.exports = {
         'Commands',
 
   ],
+  api: [
+    `api/chatapi`,
+    `api/animalfactapi`,
+    `api/jokeapi`,
+    `api/lyricsapi`,
+    `api/pokedexapi`
+  ]
 };
