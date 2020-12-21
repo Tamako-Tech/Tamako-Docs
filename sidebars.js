@@ -26,7 +26,6 @@ module.exports = {
   api: [
     `api/chatapi`,
     `api/animalfactapi`,
-    `api/jokeapi`,
     `api/pokedexapi`
   ]
 };
