@@ -11,7 +11,7 @@ For That, simply [Join the Support server](https://support.tamako.tech) of Tamak
 
 # Get Cakes
 ```
-https://api.tamako.tech/chat
+https://api.tamako.tech/api/chat
 ```
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 
   <TabItem value="response">
-  
+
   ```
   https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message
   ```

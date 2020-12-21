@@ -24,6 +24,7 @@ module.exports = {
 
   ],
   api: [
-    `api/chatapi`
+    `api/chatapi`,
+    `api/animalfactapi`
   ]
 };
