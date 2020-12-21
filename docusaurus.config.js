@@ -4,6 +4,16 @@ module.exports = {
   url: 'https://tamako.tech/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  scripts: [
+  // String format.
+  'https://docusaurus.io/script.js',
+  // Object format.
+  {
+    src:
+      'https://arc.io/widget.min.js#ynoq11ke',
+    async: true,
+  },
+],
   favicon: 'img/logo.png',
   organizationName: 'BearTS', // Usually your GitHub org/user name.
   projectName: 'Tamako-Docs',
