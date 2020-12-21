@@ -11,7 +11,7 @@ See those fancy messages from another server when a new member joins their serve
 #### 1. Toggling the Member Greeter On
 The first thing we're going to do is to enable the server's member greeter. When Tamako joins on a new server, all the fancy stuffs that Tamako do, including **Member Greeter**, is disabled by default, which is why you have to enable the server's member greeter first. You can enable this by typing the command `t!welcometoggle` and tada! You're set.. No.. But you've already made it the first step!
 
-<img src={require('../assets/Welcome-toggle.png').default} />
+<img src={require('../assets/Welcome_toggle.png').default} />
 <br /><font size='2' color='#c75a83'> Tamako confirming the enabling of this Feature! Way to go!</font><br /><br />
 Similarly, as stated on the message above, if you want to disable this feature in your server, you can do so by typing the command again.
 <br />
@@ -50,11 +50,11 @@ https://64.media.tumblr.com/5fc8ffb3910e2ea6de1db1c3a68cda0b/tumblr_mhdwyaAjLe1r
 
 And there we go! Tamako just confirmed it!
 
-<img src={require('../assets/t!serwelcomemsg_text.png').default} />
+<img src={require('../assets/tserwelcomemsg_text.png').default} />
 <br /><font size='2' color='#c75a83'>Tamako just confirmed your custom greeting message!</font> <br /><br />
 
 How about we test it?
-<img src={require('../assets/t!serwelcomemsg_text_test.png').default} />
+<img src={require('../assets/tserwelcomemsg_text_test.png').default} />
 <br /><font size='2' color='#c75a83'>We exactly got what we wanted! Note that the channels will only resolve to mention if they are available in your server.</font> <br /> <br />
 
 :::info Take a good look at the following!
