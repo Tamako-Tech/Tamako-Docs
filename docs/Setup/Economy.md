@@ -20,7 +20,7 @@ sidebar_label: Economy System
 <li><a href="#wallet">Wallet</a></li>
 
 ## Earning
-Earning Currency from this bot isn't that hard, but the way to earn it isn't a lot either. The bot only have 4 ways to earn currencies, which are `beg`, `bet`, `find`, and `daily` (see [Currency Commands](../Commands#economy)).<br/> or even sell your item to earn currencies
+Earning Currency from this bot isn't that hard, but the way to earn it isn't a lot either. The bot only have 4 ways to earn currencies, which are `beg`, `bet`, `find`, and `daily` (see <a href="https://tamako.tech/docs/Commands#economy" target="_blank">Currency Commands</a>).<br/> or even sell your item to earn currencies.
 
 |  Source  |  Cooldown  |    Value    |
 |----------|------------|-------------|
@@ -45,7 +45,7 @@ A not-so-reliable way of earning coins in the Tamako Economy. The Betting system
 You can Spend your Coins to buy items from Tamako's Market. To get Started, you can either go to [Market](https://market.tamako.tech) or type `t!market` to view the market.
 You can Buy Backgrounds, Emblems, Patterns and hats to make your profile so much appealing. Here is an image of Sakurajimai's Profile
 <img src={require('../assets/sakurjimai.png').default} />
-You can previewtems by `t!previewitem <itemid>` and buy an item with `t!buy <itemid>` and equip or use it with `t!use <itemid>`
+You can previewtems by `t!previewitem <itemid>` and buy an item with `t!buy <itemid>` and equip or use it with `t!use <itemid>`.
 ## Banking
 Because of the limitation of the wallet, you will eventually need a bank. If you don't have a bank yet, you can get one by using the `bank` command (which costs 2,500 of your current coins). You will also need a bank to start betting because won bets are automatically transferred here. You will also need to deposit and withdraw your current coins from time to time (to prevent <a href="#overflow">overflow</a>). Also, transferring credits from user to user requires you to have a bank.
 ## Overflow
