@@ -146,3 +146,4 @@ The Api Gives the information in JSON
   }
 }
 ```
+Alternatively, you can use our NPM package [tamako-api](https://www.npmjs.com/package/tamako-api)
