@@ -36,7 +36,7 @@ You can transfer your currency around, from your wallet to bank (depositing), ba
 - The minimum required amount to transfer from and to bank is 100. This is also true when transferring amount from bank to bank.
 - The taxation is different from deposit/withdraw to transfer (Deposit and Withdraw has 5% fee, Transfer has twice the amount at 10%)
 - Transferring requires both of the parties involved to have a bank account (Tamako's banking system, not real bank account)
-- You cannot withdraw an amount greater than what your wallet can hold (20000 coins atm, subject to change). If you attempt to do so, you'll receive an error stating that it can cause a currency [overflow](#overflow) together with the maximum amount you can withdraw at the moment.
+- You cannot withdraw an amount greater than what your wallet can hold (50000 coins atm, subject to change). If you attempt to do so, you'll receive an error stating that it can cause a currency [overflow](#overflow) together with the maximum amount you can withdraw at the moment.
 ## Betting
 A not-so-reliable way of earning coins in the Tamako Economy. The Betting system has 33.33% win rate and rewards can be as twice up to 10x the amount of the bet amount (e.g. betting 500 will give you at least 1000 up to 5000 coin). The bet result will arrive a minute after you made the bet, but the bet amount will be instantly subtracted from your wallet. You will also need a bank to start betting (Won amounts are automatically transferred to your bank without taxes). The minimum bet amount is 500, while the maximum bet amount is 5000.
 ## Spending
@@ -44,12 +44,12 @@ As of the moment, there has been no way to spend money yet (Except betting and p
 ## Banking
 Because of the limitation of the wallet, you will eventually need a bank. If you don't have a bank yet, you can get one by using the `bank` command (which costs 2,500 of your current coins). You will also need a bank to start betting because won bets are automatically transferred here. You will also need to deposit and withdraw your current coins from time to time (to prevent <a href="#overflow">overflow</a>). Also, transferring credits from user to user requires you to have a bank.
 ## Overflow
-A special feature this Economy system has is the Overflow. This is put in place to limit the wallet to it's decided maximum capacity (@ 20,000). What happens in an overflow event is that:
-- Earnings when the overflow happens will be forever lost, they are not transferred to your bank. (e.g., if you have 19,500 in your wallet and received a daily reward of 1000, you'll only receive 500 of it. The other 500 will not be retrievable)
-- If you have full amount of what the wallet can hold (20,000), you lose the ability to receive daily rewards, find, and beg credits.
+A special feature this Economy system has is the Overflow. This is put in place to limit the wallet to it's decided maximum capacity (@ 50,000). What happens in an overflow event is that:
+- Earnings when the overflow happens will be forever lost, they are not transferred to your bank. (e.g., if you have 49,500 in your wallet and received a daily reward of 1000, you'll only receive 500 of it. The other 500 will not be retrievable)
+- If you have full amount of what the wallet can hold (50,000), you lose the ability to receive daily rewards, find, and beg credits.
 - You will not lose coins when withdrawing amount when in overflow. You will simply receive an error message.
 - Overflow is not cooldown based, meaning unless you free up your wallet, you will not be able to receive wallet-reliant services.<br/>
 
 To prevent Wallet Overflow, free up your wallet by transferring some of your wallet credits to your <a href="#banking">bank</a>
 ## Wallet
-Wallet is your primary coin storage in Tamako's economy system. After registering to the economy system, you'll receive a random amount from Tamako to fill up your newly acquired wallet. This wallet can only hold 20,000 coins though, so you will need to have a bank. In case you earn more than what your wallet can hold, it will cause your credits to [overflow](#overflow).
+Wallet is your primary coin storage in Tamako's economy system. After registering to the economy system, you'll receive a random amount from Tamako to fill up your newly acquired wallet. This wallet can only hold 50,000 coins though, so you will need to have a bank. In case you earn more than what your wallet can hold, it will cause your credits to [overflow](#overflow).
