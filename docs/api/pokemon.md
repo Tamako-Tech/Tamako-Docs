@@ -93,6 +93,7 @@ Any Pokemon
 
 
 If you still got doubts, Join the [support server](https://support.tamako.tech/)
+Alternatively, you can use our NPM package [tamako-api](https://www.npmjs.com/package/tamako-api)
 
 # Example
 
@@ -146,4 +147,4 @@ The Api Gives the information in JSON
   }
 }
 ```
-Alternatively, you can use our NPM package [tamako-api](https://www.npmjs.com/package/tamako-api)
+
