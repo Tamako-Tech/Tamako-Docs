@@ -8,7 +8,7 @@ sidebar_label: ChatBot
 
 # Get the Authorisation Keys
 You can Utilise Our Chatbot API but for that you will need to Request Authorisation Key and ID
-For That, simply [Join the Support server](https://support.tamako.tech) of Tamako and Fill out this [Form](https://api.tamako.tech/)
+For That, simply sign up on this [Website](https://appcenter.theskyfallen.com/) and create an app
 
 # Get Cakes
 
@@ -28,19 +28,23 @@ import TabItem from '@theme/TabItem';
 
   Query Parameters
 
-  | Parameter | type | Value |
-  |-|-|-|
-  | authorization | `string` | Authentication-Key You will need to [request this](https://requests.tamako.tech/) |
-  | bid | `string` | Once you get approved for the Authentication-Key you will get a bid along with that |
-  | message | `string` | The input to the api |
-  | user | `string` | The bot creates profile / userid so you will either want to mention your app to fetch the userid of the author or predefine it to a single one |
+  | Parameter | Type | Default | Optional | Description |
+  | - | - | - | :-: | - |
+  | username | string | none | ❌ | Your Username on the [Website](https://appcenter.theskyfallen.com/)
+  | appsecret | string | none | ❌ | Your AppSecret on the [Website](https://appcenter.theskyfallen.com/)
+  | appid | string | none | ❌ | Your AppID on the [Website](https://appcenter.theskyfallen.com/)
+  | message | string | none | ❌ | The message you want the chatbot to reply with 
+  | name | string | Tamako | ✔️ | The name of the chatbot
+  | gender | string | female | ✔️ | The gender of the chatbot
+  | userid | string | none | ❌ | Unique ID to tell users using the endpoint apart
+
 
   </TabItem>
 
   <TabItem value="response">
 
   ```
-  https://api.tamako.tech/chat?authorization=authkey&bid=bid&user=userid&message=message
+  https://api.tamako.tech/chat?username=authkey&appsecret=appsecret&appid=appid&name=Sakuta&gender=male&userid=userid&message=message
   ```
 
   <img src={require('../assets/greendot.png').default} height='15'/>Status OK
@@ -49,10 +53,13 @@ import TabItem from '@theme/TabItem';
 {
   "api":"TamakoBot API",
   "args":{
-    "bid":"bid",
-    "key":"authkey",
-    "userid":"userid",
-    "incoming_message":"message"
+      "username":"username",
+      "appid":"appid",
+      "appsecret":"appsecret",
+      "userid":"userid",
+      "gender":"male",
+      "name":"Sakuta",
+      "incoming_message":"message
     },
   "response":"response by the api"
 }
@@ -61,14 +68,17 @@ import TabItem from '@theme/TabItem';
 <br/>
 <img src={require('../assets/reddot.png').default} height='15'/> Wrong Authentication
 
-```title="https://api.tamako.tech/api/chat?authorization=authkey&bid=bid&user=userid&message=message"
+```title="  https://api.tamako.tech/chat?username=authkey&appsecret=appsecret&appid=appid&name=Sakuta&gender=male&userid=userid&message=message"
 {
 "api":"TamakoBot API",
 "args":{
-  "bid":"bid",
-  "key":"authkey",
-  "userid":"userid",
-  "incoming_message":"message"
+      "username":"username",
+      "appid":"appid",
+      "appsecret":"appsecret",
+      "userid":"userid",
+      "gender":"male",
+      "name":"Sakuta",
+      "incoming_message":"message
   },
 "error":"null"
 }
@@ -80,10 +90,13 @@ import TabItem from '@theme/TabItem';
 {
 "api":"TamakoBot API",
 "args":{
-  "bid":"bid",
-  "key":"authkey",
-  "userid":"",
-  "incoming_message":"message"
+      "username":"username",
+      "appid":"appid",
+      "appsecret":"appsecret",
+      "userid":null,
+      "gender":"male",
+      "name":"Sakuta",
+      "incoming_message":"message
   },
 "error":"missing_arguements"
 }
@@ -92,3 +105,4 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 If you still got doubts, Join the [support server](https://support.tamako.tech/)
+Alternatively, you can use our NPM package [tamako-api](https://www.npmjs.com/package/tamako-api)

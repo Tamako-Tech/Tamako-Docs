@@ -14,6 +14,7 @@ module.exports = {
             'Setup/custom_welcome_message' ,
             'Setup/custom_leave_message' ,
             'Setup/XP_System',
+            'Setup/Ticket_System',
             'Setup/proxy'
           ],
         },
