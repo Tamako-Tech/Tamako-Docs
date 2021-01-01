@@ -30,9 +30,9 @@ import TabItem from '@theme/TabItem';
 
   | Parameter | Type | Default | Optional | Description |
   | - | - | - | :-: | - |
-  | username | string | none | ❌ | Your Username on the [Website](https://appcenter.theskyfallen.in/)
-  | appsecret | string | none | ❌ | Your AppSecret on the [Website](https://appcenter.theskyfallen.in/)
-  | appid | string | none | ❌ | Your AppID on the [Website](https://appcenter.theskyfallen.in/)
+  | username | string | none | ❌ | Your Username on the [Website](https://appcenter.theskyfallen.com/)
+  | appsecret | string | none | ❌ | Your AppSecret on the [Website](https://appcenter.theskyfallen.com/)
+  | appid | string | none | ❌ | Your AppID on the [Website](https://appcenter.theskyfallen.com/)
   | message | string | none | ❌ | The message you want the chatbot to reply with 
   | name | string | Tamako | ✔️ | The name of the chatbot
   | gender | string | female | ✔️ | The gender of the chatbot
