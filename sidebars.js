@@ -21,8 +21,8 @@ module.exports = {
 
       ],
     },
-        'Commands',
-
+    'Commands',
+    'privacy',
   ],
   api: [
     `api/chatapi`,
