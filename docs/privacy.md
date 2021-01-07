@@ -24,7 +24,7 @@ Tamako Stores your Data in [MongoDB](https://mongoosejs.com/) and [Redis](https:
 We use MongoDB to store all the permanent Data and Redis for caching.
 
 ## Questions & Concerns
-If you are concerned/suspicious about any of the above given statements/data , you can enquire about it in The [Tamako Support Server](https://support.tamako.tech/)
+If you are concerned/suspicious about any of the above given statements, enquire about it in The [Tamako Support Server](https://support.tamako.tech/)
 
 ## Removal of Your Data
 Even if the bot is removed from a server, the data still exists to keep the configurations. If you want to have it removed, you can have the rights to request us. To Do so, You can either use `t!feedback` or join The [Support Server](https://support.tamako.tech). <br/>
