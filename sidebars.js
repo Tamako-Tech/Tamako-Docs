@@ -18,11 +18,11 @@ module.exports = {
             'Setup/proxy'
           ],
         },
-      'privacy',
+
       ],
     },
-        'Commands',
-
+    'Commands',
+    'privacy',
   ],
   api: [
     `api/chatapi`,
