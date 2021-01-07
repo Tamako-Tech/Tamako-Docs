@@ -18,7 +18,7 @@ module.exports = {
             'Setup/proxy'
           ],
         },
-
+      'privacy',
       ],
     },
         'Commands',
