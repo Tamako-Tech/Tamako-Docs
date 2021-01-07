@@ -1,7 +1,13 @@
 {
   "name": "tamako-docs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
+ 	"author": "Bear#3437 <bear@tamako.tech>",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/BearTS/Tamako-Docs/issues"
+	},
+	"homepage": "https://github.com/BearTS/Tamako-Docs",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
