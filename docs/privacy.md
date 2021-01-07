@@ -17,7 +17,7 @@ We also Store their Author ID to add Tamako coins & maintain a global profile li
 <b>Tamako only stores necessary data.</b>
 
 ## Why do we need the data?
-Tamako needs this data to provide a seamless experience of her features for each server/guild & user, Tamako will never sneakily fetches your data.
+Tamako needs this data to provide a seamless experience of her features for each server/guild & user, Tamako will never sneakily fetch your data.
 
 ## How do we handle the data?
 Tamako Stores your Data in [MongoDB](https://mongoosejs.com/) and [Redis](https://docs.redislabs.com/latest/rs/references/client_references/client_ioredis/) through verified API wrapper.<br/>
