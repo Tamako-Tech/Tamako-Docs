@@ -10,8 +10,8 @@ Start By Making a Category and giving it the proper Permissions<br>
 Now Type `t!setup` and You will be prompted to type the category ID in which you want tickets to be made.
 You will need to copy the category id by right click on category and copy id
 Next, You will be prompted to provide the channel in which you want to keep archived tickets.<br>
-You can make a channel and mention it or can type `skip` to skip this.<br>
-
+You can type `skip` to skip this or make a channel and mention it.
+It will save close tickets (if closed using `t!arch`)
 
 ## Setting Up Reaction
 
