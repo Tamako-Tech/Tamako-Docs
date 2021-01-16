@@ -57,6 +57,7 @@ The Prefix of the bot is `t!`
 | ``watch`` | Adds a new anime to watch for new episodes of.
 | ``watching`` | View list of anime this server is subscribed to.
 | ``welcometoggle`` | Toggle the Joining Member Announcer on and off.
+| ``setup`` | Setup Ticket System.
 | ``xpenable`` | Enable collecting xp on Disabled mentioned channels
 | ``xpexcempt`` | Disable collecting xp on mentioned channels
 | ``xpreset`` | Reset the xp of everyone in this server
@@ -168,6 +169,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``beg`` | Want to earn money some more? Why dont you try begging
 | ``bet`` | Earn coins with much higher prize ( 200% - 1000% ), but low winrate ( 25% )
 | ``buy`` | Check what you can buy from the shop.
+| ``creditslb`` | Shows the top credit earners for this server
 | ``daily`` | Retrieve your daily reward <3
 | ``deposit`` | Deposit your money in a bank to safeguard your money
 | ``findmoney`` | Find coins. Maybe we have some hidden around
@@ -180,6 +182,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``setbio`` | Sets the profile bio for your profile card
 | ``setbirthday`` | Sets the profile birthday for your profile card.
 | ``setcolor`` | Sets the color for your profile card.
+| ``tip`` | Tip a user
 | ``transfer`` | Give some of your coins to your friends!
 | ``unequip`` | Check what you can buy from the shop
 | ``use`` | Check what you can buy from the shop
@@ -198,6 +201,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``message-source`` | Responds with a codeblock containing a message's contents.
 | ``message`` | Responds with detailed information on a message.
 | ``permissionsfor`` | List the server permissions of mentioned user or provided ID
+| ``roles`` | List all roles in the server
 | ``serverinfo`` | Give Server Stats
 | ``userinfo`` | Fetch User Information
 
@@ -224,7 +228,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``today-in-history`` | Responds with an event that occurred today in history.
 | ``us-election`` | Responds with the odds of each canidate winning the presidential election, according to 538.
 | ``year-progress`` | Responds with the progress of the current year.
-
 
 ## Search For Stuff
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | Description |
@@ -279,7 +282,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``pokedex-location`` | Responds with the location data for a Pokémon.
 | ``pokedex-moveset`` | Responds with the moveset for a Pokémon.
 | ``pokemon`` | Find a specific pokemon using the pokédex
-| ``pornhub`` | Searches Pornhub for your query. (NSFW)
 | ``recipe`` | Searches for recipes based on your query.
 | ``reddit`` | Fetch a random image from supplied subreddit
 | ``right-stuf`` | Searches Right Stuf Anime for your query.
@@ -355,6 +357,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``advice`` | Responds with a random bit of advice.
 | ``axis-cult`` | Responds with a teaching of the Axis Cult.
 | ``birdfact`` | Generate a random useless bird facts
+| ``boredom`` | Responds with a random activity to try when you're bored.
 | ``bunny-fact`` | Responds with a random bunny fact.
 | ``cat-fact`` | Responds with a random cat fact.
 | ``charlie-charlie`` | Asks your question to Charlie.
@@ -418,13 +421,10 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``cat`` | Responds with a random cat image.
 | ``dog`` | Responds with a random dog image.
 | ``duck`` | Responds with a random duck image.
-| ``fidget`` | Responds with a random image of Fidget.
 | ``food`` | Responds with a randomly generated food.
 | ``fox`` | Responds with a random fox image.
 | ``hentai`` | Responds with a random hentai image. (NSFW)
 | ``interesting`` | Responds with a random interesting image.
-| ``karen`` | Responds with a random image of Karen.
-| ``lando`` | Responds with a random image of Lando Calrissian.
 | ``light-novel-cover`` | Responds with a randomly generated Light Novel cover. (NSFW)
 | ``lorem-picsum`` | Responds with a random image of a certain size.
 | ``mai`` | Responds with an Image of Mai San
@@ -437,7 +437,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``shrek`` | Responds with a random image of Shrek, the sexiest man alive.
 | ``sloths`` | Get a picture sloth
 | ``bestgirl`` | Responds with an Image of Tamako
-
 
 #### Single Response
 | &nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp; | Description |
@@ -519,7 +518,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``balloon-pop`` | Don't let yourself be the last one to pump the balloon before it pops!
 | ``battle`` | Engage in a turn-based battle against another user or the AI.
 | ``bingo`` | Play bingo with up to 99 other users.
-| ``connect-four`` | Play a game of Connect Four with another user.
+| ``connect-four`` | Play a game of Connect Four with another user or the AI.
 | ``dots-and-boxes`` | Play a game of Dots and Boxes with another user.
 | ``emoji-emoji-revolution`` | Can you type arrow emoji faster than anyone else has ever typed them before?
 | ``guesspionage`` | Tests your knowledge of humans as you guess how people responded to poll questions.
@@ -532,7 +531,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``quiz-duel`` | Answer a series of quiz questions against other opponents.
 | ``russian-roulette`` | Who will pull the trigger and die first?
 | ``spam-war`` | See who can type more characters the fastest.
-| ``tic-tac-toe`` | Play a game of tic-tac-toe with another user.
+| ``tic-tac-toe`` | Play a game of tic-tac-toe with another user or the AI.
 | ``typing-race`` | Race a user to see who can type a sentence faster.
 | ``word-chain`` | Try to come up with words that start with the last letter of your opponent's word.
 | ``word-spud`` | Hot potato, but with words.
@@ -722,6 +721,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``fancy`` | Converts text to fancy letters.
 | ``hex`` | Converts text to hex.
 | ``latlmes`` | Creates a Latlmes fake link that redirects to a rickroll.
+| ``leet`` | Converts text to l33t speak.
 | ``lmgtfy`` | Creates a LMGTFY link with the query you provide.
 | ``lolcat`` | Converts text to lolcat.
 | ``lowercase`` | Converts text to lowercase.
@@ -774,13 +774,15 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 
 | Commands         | Usage                                     |
 |------------------|-------------------------------------------|
+| ``clearqueue`` | Toggle Loop of the Music system of Tamako
+| ``filter`` | Apply A filter to the song
+| ``filters`` | Get a list of filters
 | ``loop`` | Toggle Loop of the Music system of Tamako
 | ``nowplaying`` | Show the currently playing music
 | ``pause`` | Pause the current music playing
 | ``play`` | Play songs
-| ``playlist`` | Play from Playlist
 | ``queue`` | Check the current queue of music
-| ``removesong`` | Remove a song from queue
+| ``resume`` | Resume the paused music
 | ``shuffle`` | Shuffle the current queue
 | ``skip`` | Skip the current Playing song
 | ``stop`` | Stop Tamako from playing music
@@ -801,7 +803,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | Commands           | Usage                                      |
 |--------------------|--------------------------------------------|
 | ```join```       | Joins your voice channel.                  |
-| ```leave```      | Leaves the current voice channel.          |
+| ```leave```      | Leaves the current voice channel.
 | ``airhorn`` | Plays an airhorn sound in a voice channel.
 | ``dec-talk`` | The world's best Text-to-Speech.
 | ``pokemon-cry`` | Plays a Pokémon's cry.
@@ -820,12 +822,12 @@ To use it you can either type ```t!soundboard [libray-name]``` or <br/>Type ```t
 ## Phone
 | Command | Description |
 | ------- | ----------- |
-| `admin-phone` | Starts an admin phone call with a server. (Owner-Only)
-| `hang-up` | Hangs up the current phone call.
-| `phone-block` | Gives instructions for blocking a channel or server.
-| `phone-book` | Looks up phone-enabled servers.
-| `phone-info` | Gives information on the current phone call.
-| `phone` | Starts a phone call with a random server.
+| ``admin-phone`` | Starts an admin phone call with a server. (Owner-Only)
+| ``hang-up`` | Hangs up the current phone call.
+| ``phone-block`` | Gives instructions for blocking a channel or server.
+| ``phone-book`` | Looks up phone-enabled servers.
+| ``phone-info`` | Gives information on the current phone call.
+| ``phone`` | Starts a phone call with a random server.
 
 ## NSFW
 | Command | Description |
