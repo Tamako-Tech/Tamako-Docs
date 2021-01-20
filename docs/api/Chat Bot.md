@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
   | message | string | none | ❌ | The message you want the chatbot to reply with 
   | name | string | Tamako | ✔️ | The name of the chatbot
   | gender | string | female | ✔️ | The gender of the chatbot
-  | userid | string | none | ❌ | Unique ID to tell users using the endpoint apart
+  | user | string | none | ❌ | Unique ID to tell users using the endpoint apart
 
 
   </TabItem>
@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="response">
 
   ```
-  https://api.tamako.tech/chat?username=authkey&appsecret=appsecret&appid=appid&name=Sakuta&gender=male&userid=userid&message=message
+  https://api.tamako.tech/chat?username=authkey&appsecret=appsecret&appid=appid&name=Sakuta&gender=male&user=userid&message=message
   ```
 
   <img src={require('../assets/greendot.png').default} height='15'/>Status OK
@@ -68,7 +68,7 @@ import TabItem from '@theme/TabItem';
 <br/>
 <img src={require('../assets/reddot.png').default} height='15'/> Wrong Authentication
 
-```title="  https://api.tamako.tech/chat?username=authkey&appsecret=appsecret&appid=appid&name=Sakuta&gender=male&userid=userid&message=message"
+```title="  https://api.tamako.tech/chat?username=authkey&appsecret=appsecret&appid=appid&name=Sakuta&gender=male&user=userid&message=message"
 {
 "api":"TamakoBot API",
 "args":{
