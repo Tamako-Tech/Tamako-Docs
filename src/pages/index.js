@@ -22,7 +22,7 @@ const features = [
     imageUrl: 'img/support.png',
     description: (
       <>
-        Tamako has a Ticket Support System to help your
+        Tamako has a <a href="/docs/Setup/Ticket_System">Ticket Support System</a> to help your
 	server members directly talk with support team on your server.
 	She can even archive those tickets and give you a copy
       </>
@@ -34,7 +34,7 @@ const features = [
     description: (
       <>
         Tamako can play Music and even different sounds from the SoundBoard<br/>
-        You can check the list by clicking <a href="/docs/Soundboard">here</a>
+        You can check the list by clicking <a href="/docs/Commands#music-and-sounboard">here</a>
       </>
     ),
   },
