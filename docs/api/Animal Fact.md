@@ -73,9 +73,20 @@ import TabItem from '@theme/TabItem';
 # Accepted Values
 
 `name` can be any of the following:
-| | | | | | | | | | | |
-| - | - | - | - | - | - | - | - | - | - | - |
-| dog | cat | panda | fox | birb | koala | kangaroo | racoon | elephant | giraffe | whale |
+
+| Accepted Values |
+|-----------------|
+| Dog             |
+| Cat             |
+| panda           |
+| fox             |
+| bird            |
+| koala           |
+| kangaroo        |
+| racoon          |
+| elephant        |
+| girafee         |
+| whale           |
 
 If you still got doubts, Join the [support server](https://support.tamako.tech/)
 Alternatively, you can use our NPM package [tamako-api](https://www.npmjs.com/package/tamako-api)
