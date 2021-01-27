@@ -1,7 +1,7 @@
 ---
 id: jokeapi
 title: Joke API
-description: Usage of our Public Chat API
+description: Usage of our Public API
 hide_title: False
 sidebar_label: Joke
 ---

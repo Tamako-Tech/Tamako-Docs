@@ -1,7 +1,7 @@
 ---
 id: pokedexapi
 title: Pokedex API
-description: Usage of our Public Chat API
+description: Usage of our Public API
 hide_title: False
 sidebar_label: Pokedex Fact
 ---
@@ -147,4 +147,3 @@ The Api Gives the information in JSON
   }
 }
 ```
-

@@ -1,7 +1,7 @@
 ---
 id: animalfactapi
 title: Animal API
-description: Usage of our Public Chat API
+description: Usage of our Public API
 hide_title: False
 sidebar_label: Animal Fact
 ---

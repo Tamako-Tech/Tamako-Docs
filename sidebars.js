@@ -21,6 +21,7 @@ module.exports = {
 
       ],
     },
+    'profile',
     'Commands',
     'privacy',
   ],
@@ -29,6 +30,7 @@ module.exports = {
     `api/animalfactapi`,
     `api/jokeapi`,
     `api/lyricsapi`,
-    `api/pokedexapi`
+    `api/pokedexapi`,
+    'privacy'
   ]
 };
