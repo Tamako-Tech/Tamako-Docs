@@ -31,6 +31,6 @@ module.exports = {
     `api/jokeapi`,
     `api/lyricsapi`,
     `api/pokedexapi`,
-    'privacy'
+    'api/privacy'
   ]
 };

@@ -5,7 +5,8 @@ description: This is a List Of all the Commands Available For Tamako
 hide_title: False
 sidebar_label: Commands Available
 ---
-The Prefix of the bot is `t!`
+The Prefix of the bot is `t!`. <br/>
+There are a total of 726 commands
 ## Setup
 | Command | Description |
 | ------- | ----------- |
