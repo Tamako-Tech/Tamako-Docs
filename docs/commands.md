@@ -6,41 +6,6 @@ hide_title: False
 sidebar_label: Commands Available
 ---
 The Prefix of the bot is `t!`
-## Roleplay
-| Command | Description |
-| ------- | ----------- |
-| ``baka`` | BAKA
-| ``bite`` | Bites a user.
-| ``blush`` | Blushes at a user.
-| ``bro-hoof`` | Gives a user a bro hoof.
-| ``celebrate`` | Celebrates.
-| ``cry`` | Cry
-| ``disgust`` | Mazui! Kimoi!
-| ``eat`` | Feeds a user.
-| ``explode`` | Explodes a user.
-| ``feed`` | Yummy!
-| ``fist-bump`` | Fist-bumps a user.
-| ``happy`` | Happy!
-| ``high-five`` | High Fives a user.
-| ``hold-hands`` | Holds hands with a user.
-| ``hug`` | Hug a User
-| ``inhale`` | Inhales a user.
-| ``kill`` | kill a User
-| ``kiss`` | Kiss a User
-| ``lick`` | lick lick lick
-| ``midfing`` | Use this to throw someone off. No seriously, it's a joke
-| ``pat`` | Pat a User
-| ``poke`` | Poke Your Friends
-| ``punch`` | Punches a user.
-| ``slap`` | Slap Your worthless friends.
-| ``sleep`` | Puts a user to sleep.
-| ``smile`` | Smiles at a user.
-| ``smug`` | The epitome of arguments: smug anime girls.
-| ``tickle`` | Tickle you friends
-| ``wake-up`` | Wakes up a user.
-| ``wave`` | Waves at a user.
-| ``wink`` | Winks at a user.
-
 ## Setup
 | Command | Description |
 | ------- | ----------- |
@@ -62,6 +27,7 @@ The Prefix of the bot is `t!`
 | ``xpexcempt`` | Disable collecting xp on mentioned channels
 | ``xpreset`` | Reset the xp of everyone in this server
 | ``xptoggle`` | Toggle the xp system on/off for the server.
+
 
 ## Ticket Support System
 | Command | Description |
@@ -109,6 +75,40 @@ The Prefix of the bot is `t!`
 | ``unban`` | Unbans a user from this server
 | ``unmute`` | Unmutes a muted user
 
+## Roleplay
+| Command | Description |
+| ------- | ----------- |
+| ``baka`` | BAKA
+| ``bite`` | Bites a user.
+| ``blush`` | Blushes at a user.
+| ``bro-hoof`` | Gives a user a bro hoof.
+| ``celebrate`` | Celebrates.
+| ``cry`` | Cry
+| ``disgust`` | Mazui! Kimoi!
+| ``eat`` | Feeds a user.
+| ``explode`` | Explodes a user.
+| ``feed`` | Yummy!
+| ``fist-bump`` | Fist-bumps a user.
+| ``happy`` | Happy!
+| ``high-five`` | High Fives a user.
+| ``hold-hands`` | Holds hands with a user.
+| ``hug`` | Hug a User
+| ``inhale`` | Inhales a user.
+| ``kill`` | kill a User
+| ``kiss`` | Kiss a User
+| ``lick`` | lick lick lick
+| ``midfing`` | Use this to throw someone off. No seriously, it's a joke
+| ``pat`` | Pat a User
+| ``poke`` | Poke Your Friends
+| ``punch`` | Punches a user.
+| ``slap`` | Slap Your worthless friends.
+| ``sleep`` | Puts a user to sleep.
+| ``smile`` | Smiles at a user.
+| ``smug`` | The epitome of arguments: smug anime girls.
+| ``tickle`` | Tickle you friends
+| ``wake-up`` | Wakes up a user.
+| ``wave`` | Waves at a user.
+| ``wink`` | Winks at a user.
 
 ## Proxy - Multiple Accounts
 | Command | Description |
@@ -135,12 +135,14 @@ The Prefix of the bot is `t!`
 ## Utility
 | Command | Description |
 | ------- | ----------- |
-| ``cloc`` | Responds with the bot's code line count.
-| ``cmd`` | Displays a list of available commands in your dms
+| ``gedit`` | Edit a giveaway
 | ``gend`` | End a giveaway
 | ``greroll`` | Reroll the winners of a giveaway
 | ``gstart`` | Start a giveaway
+| ``remind`` | Sets a reminder.
+| ``delete-reminder`` | Deletes your reminder.
 | ``help`` | Displays a list of available commands, or detailed information for a specific command.
+| ``high-scores`` | Responds with the high scores the bot has saved.
 | ``invite`` | Responds with the bot's invite links.
 | ``leaderboard`` | Shows the top xp earners for this server
 | ``mhelp`` | Get all commands or help related to Counter System
@@ -279,9 +281,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``paladins`` | Responds with information on a Paladins player.
 | ``periodic-table`` | Finds an element on the periodic table.
 | ``poem`` | Searches for poems by a specific author.
-| ``pokedex-location`` | Responds with the location data for a Pokémon.
-| ``pokedex-moveset`` | Responds with the moveset for a Pokémon.
-| ``pokemon`` | Find a specific pokemon using the pokédex
 | ``recipe`` | Searches for recipes based on your query.
 | ``reddit`` | Fetch a random image from supplied subreddit
 | ``right-stuf`` | Searches Right Stuf Anime for your query.
@@ -316,6 +315,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``birthstone`` | Responds with the Birthstone for a month.
 | ``character-count`` | Responds with the character count of text.
 | ``chinese-zodiac`` | Responds with the Chinese Zodiac Sign for the given year.
+| ``dominant-color`` | Determines the dominant color of an image.
 | ``face`` | Determines the race, gender, and age of a face.
 | ``gender`` | Determines the gender of a name.
 | ``has-transparency`` | Determines if an image has transparency in it.
@@ -343,6 +343,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``friendship`` | Determines how good friends two users are.
 | ``guess-looks`` | Guesses what a user looks like.
 | ``iq`` | Determines a user's IQ.
+| ``name-rater`` | Determines a name's quality.
 | ``psycho-pass`` | Determines your Crime Coefficient.
 | ``ship`` | Ships two users together.
 | ``smash-or-pass`` | Determines if a user is worthy of a smash or a pass.
@@ -356,17 +357,15 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``acrostic`` | Creates an acrostic from any word or name.
 | ``advice`` | Responds with a random bit of advice.
 | ``axis-cult`` | Responds with a teaching of the Axis Cult.
+| ``bearjoke`` | Responds with a random Bear joke.
 | ``birdfact`` | Generate a random useless bird facts
 | ``boredom`` | Responds with a random activity to try when you're bored.
-| ``bunny-fact`` | Responds with a random bunny fact.
-| ``cat-fact`` | Responds with a random cat fact.
 | ``charlie-charlie`` | Asks your question to Charlie.
 | ``choose`` | Chooses between options you provide.
 | ``chuck-norris`` | Responds with a random Chuck Norris joke.
 | ``coin`` | Flips a coin.
 | ``compliment`` | Compliments a user.
 | ``discover`` | Generate a set of handpicked <Anime/Manga> recommendations for a user
-| ``dog-fact`` | Responds with a random dog fact.
 | ``draw-cards`` | Draws a random hand of playing cards.
 | ``fact-core`` | Responds with a random Fact Core quote.
 | ``fact`` | Responds with a random fact.
@@ -383,7 +382,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``never-have-i-ever`` | Responds with a random "Never Have I Ever..." statement.
 | ``news`` | Responds with a random news article.
 | ``number-fact`` | Responds with a random fact about a specific number.
-| ``offspring`` | Determines if your new child will be a boy or a girl.
 | ``opinion`` | Determines the opinion on something.
 | ``oracle-turret`` | Responds with a random Oracle Turret quote.
 | ``pandafact`` | Generate a random useless panda facts
@@ -417,8 +415,8 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``animeme`` | Generate an anime meme fetched from selected subreddits
 | ``awwnime`` | Responds with cute random anime art.
 | ``bird`` | Responds with a random image of a bird.
-| ``bunny`` | Responds with a random image of a bunny.
-| ``cat`` | Responds with a random cat image.
+| ``bunny`` | Responds with a random bunny image and fact.
+| ``cat`` | Responds with a random cat image and fact.
 | ``dog`` | Responds with a random dog image.
 | ``duck`` | Responds with a random duck image.
 | ``food`` | Responds with a randomly generated food.
@@ -434,7 +432,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``potato`` | Responds with a random potato image.
 | ``sabrina`` | Get a picture of DA QUEEN
 | ``shiba`` | Responds with a random image of a Shiba Inu.
-| ``shrek`` | Responds with a random image of Shrek, the sexiest man alive.
 | ``sloths`` | Get a picture sloth
 | ``bestgirl`` | Responds with an Image of Tamako
 
@@ -456,19 +453,12 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``its-joke`` | It's joke!
 | ``just-do-it`` | Sends a link to the "Just Do It!" motivational speech.
 | ``lenny`` | Responds with the lenny face.
-| ``nitro`` | Sends an image of a fake nitro giveaway.
 | ``rickroll`` | Sends a link to the "Never Gonna Give You Up" music video.
 | ``spam`` | Responds with a picture of Spam.
 | ``tableflip`` | Flips a table... With animation!
 | ``where-is-everybody`` | Where is everybody?
 | ``wynaut`` | Why not? Wynaut?
 | ``yoff`` | Posts a picture that truly defines modern art.
-
-### Reminders:
-| Commands           | Usage                                      |
-|--------------------|--------------------------------------------|
-| ``delete-reminder`` | Deletes your reminder.
-| ``remind`` | Sets a reminder.
 
 ### Games
 
@@ -497,6 +487,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``mad-libs`` | Choose words that fill in the blanks to create a crazy story!
 | ``math-quiz`` | See how fast you can answer a math problem in a given time limit.
 | ``memory`` | Test your memory.
+| ``minesweeper`` | Play a game of Minesweeper.
 | ``quiz`` | Answer a quiz question.
 | ``reaction-time`` | Test your reaction time.
 | ``rock-paper-scissors`` | Play Rock-Paper-Scissors.
@@ -518,14 +509,22 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``balloon-pop`` | Don't let yourself be the last one to pump the balloon before it pops!
 | ``battle`` | Engage in a turn-based battle against another user or the AI.
 | ``bingo`` | Play bingo with up to 99 other users.
+| ``car-race`` | Race a car against another user.
+| ``chess-delete`` | Deletes your saved Chess game.
+| ``chess`` | Play a game of Chess with another user or the AI.
 | ``connect-four`` | Play a game of Connect Four with another user or the AI.
+| ``cram`` | Play a game of Cram with another user.
+| ``domineering`` | Play a game of Domineering with another user.
 | ``dots-and-boxes`` | Play a game of Dots and Boxes with another user.
 | ``emoji-emoji-revolution`` | Can you type arrow emoji faster than anyone else has ever typed them before?
 | ``guesspionage`` | Tests your knowledge of humans as you guess how people responded to poll questions.
 | ``gunfight`` | Engage in a western gunfight against another user. High noon.
 | ``imposter`` | Who is the imposter among us?
 | ``island`` | Who will be the final two left on the island after a series of vote-kicks?
+| ``jenga`` | Play a game of Jenga with another user or the AI.
 | ``lie-swatter`` | Players are given a fact and must quickly decide if it's True or a Lie.
+| ``nim`` | Play a game of nim with another user or the AI.
+| ``obstruction`` | Play a game of Obstruction with another user.
 | ``pick-a-number`` | Two players pick a number between 1 and 10. Whoever's closer wins.
 | ``poker`` | Play poker with up to 5 other users.
 | ``quiz-duel`` | Answer a series of quiz questions against other opponents.
@@ -570,7 +569,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``like`` | Sends an "Everyone Liked That" meme with the image of your choice.
 | ``lisa-presentation`` | Sends a "Lisa Presentation" meme with the presentation of your choice.
 | ``look-at-this-photograph`` | Draws an image or a user's avatar over Nickelback's photograph.
-| ``look-what-karen-have`` | Draws an image or a user's avatar over Karen's piece of paper.
 | ``mario-bros-views`` | Sends a "Mario Bros. Views" meme with the text of your choice.
 | ``meme-gen-classic`` | Sends a meme with the text and background of your choice.
 | ``meme-gen-modern`` | Sends a meme with the text and image of your choice.
@@ -734,7 +732,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``pirate`` | Converts text to pirate.
 | ``repeat`` | Repeat text over and over and over and over (etc).
 | ``reverse`` | Reverses text.
-| ``say`` | Make me say what you want, master.
 | ``sha-1`` | Creates a hash of text with the SHA-1 algorithm.
 | ``sha-256`` | Creates a hash of text with the SHA-256 algorithm.
 | ``ship-name`` | Creates a ship name from two names.
@@ -774,7 +771,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 
 | Commands         | Usage                                     |
 |------------------|-------------------------------------------|
-| ``clearqueue`` | Toggle Loop of the Music system of Tamako
+| ``clearqueue`` | Clear Queue of Music System of Tamako
 | ``filter`` | Apply A filter to the song
 | ``filters`` | Get a list of filters
 | ``loop`` | Toggle Loop of the Music system of Tamako
@@ -869,6 +866,15 @@ To use it you can either type ```t!soundboard [libray-name]``` or <br/>Type ```t
 | ``screenshot`` | Takes a screenshot of any webpage.
 | ``smilebasic`` | Responds with a ZIP file for a SmileBASIC project.
 | ``strawpoll`` | Generates a Strawpoll with the options you provide.
+
+## Pokemon
+| Command | Description |
+| ------- | ----------- |
+| ``pokedex-image`` | Responds with the image of a Pokémon.
+| ``pokedex-location`` | Responds with the location data for a Pokémon.
+| ``pokedex-moveset`` | Responds with the moveset for a Pokémon.
+| ``pokemon-cry`` | Plays a Pokémon's cry.
+| ``pokemon`` | Find a specific pokemon using the pokédex
 
 ## Automatic Response
 | Command | Description |
