@@ -33,7 +33,7 @@ import TabItem from '@theme/TabItem';
 {
   "api":"TamakoBot API",
   "type":"Joke API",
-  joke":"The best way to stop a charging bull is to take away his credit card"
+  "joke":"The best way to stop a charging bull is to take away his credit card"
 }
 ```
   </TabItem>
