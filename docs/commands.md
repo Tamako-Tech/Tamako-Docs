@@ -328,6 +328,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``scrabble-score`` | Responds with the scrabble score of a word.
 | ``severe-toxicity`` | Determines the toxicity of text, but less sensitive to milder language.
 | ``toxicity`` | Determines the toxicity of text.
+| ``valid-url`` | Tests whether a URL is valid or not.
 | ``what-anime`` | Determines what anime a screenshot is from.
 | ``zodiac-sign`` | Responds with the Zodiac Sign for the given month/day.
 
@@ -415,6 +416,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``ai-waifu`` | Responds with a randomly generated waifu.
 | ``animeme`` | Generate an anime meme fetched from selected subreddits
 | ``awwnime`` | Responds with cute random anime art.
+| ``bear`` | Responds with an Image of Bear
 | ``bird`` | Responds with a random image of a bird.
 | ``bunny`` | Responds with a random bunny image and fact.
 | ``cat`` | Responds with a random cat image and fact.
@@ -476,6 +478,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``chance`` | Attempt to win with a 1 in 1000 (or your choice) chance of winning.
 | ``doors`` | Open the right door, and you win the money! Make the wrong choice, and you get the fire!
 | ``fishy`` | Go fishing.
+| ``game`` | Play some games to earn credits| captcha, country-flags, hangman, logoquiz, and typingquiz
 | ``google-feud`` | Attempt to determine the top suggestions for a Google search.
 | ``hangman`` | Prevent a man from being hanged by guessing a word as fast as you can.
 | ``hearing-test`` | Test your hearing.
@@ -497,7 +500,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``sorting-hat`` | Take a quiz to determine your Hogwarts house.
 | ``the-game`` | If you think about the game, you lose.
 | ``true-or-false`` | Answer a true or false question.
-| ``typing-test`` | See how fast you can type a sentence in a given time limit.
+| ``typing-test`` | See how fast you can type a sentence.
 | ``waldo`` | Try to find Waldo with spoiler tags!
 | ``whos-that-pokemon-cry`` | Guess who that Pokémon is, based on their cry.
 | ``whos-that-pokemon`` | Guess who that Pokémon is, based on their silhouette.
@@ -510,7 +513,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``balloon-pop`` | Don't let yourself be the last one to pump the balloon before it pops!
 | ``battle`` | Engage in a turn-based battle against another user or the AI.
 | ``bingo`` | Play bingo with up to 99 other users.
-| ``car-race`` | Race a car against another user.
+| ``car-race`` | Race a car against another user or the AI.
 | ``chess-delete`` | Deletes your saved Chess game.
 | ``chess`` | Play a game of Chess with another user or the AI.
 | ``connect-four`` | Play a game of Connect Four with another user or the AI.
@@ -535,6 +538,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``typing-race`` | Race a user to see who can type a sentence faster.
 | ``word-chain`` | Try to come up with words that start with the last letter of your opponent's word.
 | ``word-spud`` | Hot potato, but with words.
+
 
 ### Meme Generators
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
@@ -604,6 +608,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 #### Image Manipulation
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
+
 | ``ace-attorney`` | Sends a text box from Ace Attorney with the quote and character of your choice.
 | ``achievement`` | Sends a Minecraft achievement with the text of your choice.
 | ``adorable`` | Creates an adorable avatar based on the text you provide.
@@ -622,7 +627,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``comment`` | Comment something and return a youtube-like comment image
 | ``communist`` | Draws the Communist flag over an image or a user's avatar.
 | ``contrast`` | Draws an image or a user's avatar but with contrast.
-| ``convert-image`` | Converts an image or user's avatar from one format to another.
+| ``convert-image`` | Converts an image from one format to another.
 | ``create-qr-code`` | Converts text to a QR Code.
 | ``danger`` | Creates a danger sign with the text of your choice.
 | ``desaturate`` | Draws an image or a user's avatar but desaturated.
@@ -651,6 +656,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``liquid-rescale`` | Draws an image or a user's avatar but with liquid rescale from ImageMagick.
 | ``minecraft-skin`` | Sends the Minecraft skin for a user.
 | ``mirror`` | Draws an image or a user's avatar but mirrored on the X/Y axis (or both).
+| ``motion-blur`` | Draws an image or a user's avatar with motion blur.
 | ``needs-more-jpeg`` | Draws an image or a user's avatar as a low quality JPEG.
 | ``newspaper`` | Creates a fake newspaper with the headline and body of your choice.
 | ``noise`` | Draws an image or a user's avatar but with noise.
@@ -772,15 +778,14 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 
 | Commands         | Usage                                     |
 |------------------|-------------------------------------------|
-| ``clearqueue`` | Clear Queue of Music System of Tamako
-| ``filter`` | Apply A filter to the song
-| ``filters`` | Get a list of filters
 | ``loop`` | Toggle Loop of the Music system of Tamako
 | ``nowplaying`` | Show the currently playing music
 | ``pause`` | Pause the current music playing
 | ``play`` | Play songs
 | ``queue`` | Check the current queue of music
+| ``removesong`` | Remove a Song from  Music system of Tamako
 | ``resume`` | Resume the paused music
+| ``seek`` | Seek a song from  Music system of Tamako
 | ``shuffle`` | Shuffle the current queue
 | ``skip`` | Skip the current Playing song
 | ``stop`` | Stop Tamako from playing music

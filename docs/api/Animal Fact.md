@@ -88,5 +88,11 @@ import TabItem from '@theme/TabItem';
 | girafee         |
 | whale           |
 
+# Official Wrappers 
+
+You can easily use our API Wrappers to interact with Tamako-API
+[Node.js](https://www.npmjs.com/package/tamako-api)
+[Python](https://github.com/DaftDevelopment/Tamako.py)
+
 If you still got doubts, Join the [support server](https://support.tamako.tech/)
 Alternatively, you can use our NPM package [tamako-api](https://www.npmjs.com/package/tamako-api)
