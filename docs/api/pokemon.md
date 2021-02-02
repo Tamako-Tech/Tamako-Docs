@@ -93,8 +93,8 @@ Any Pokemon
 
 # Official Wrappers 
 
-You can easily use our API Wrappers to interact with Tamako-API
-[Node.js](https://www.npmjs.com/package/tamako-api)
+You can easily use our API Wrappers to interact with Tamako-API <br/>
+[Node.js](https://www.npmjs.com/package/tamako-api) <br/>
 [Python](https://github.com/DaftDevelopment/Tamako.py)
 
 If you still got doubts, Join the [support server](https://support.tamako.tech/)
