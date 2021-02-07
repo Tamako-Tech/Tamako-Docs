@@ -778,14 +778,15 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 
 | Commands         | Usage                                     |
 |------------------|-------------------------------------------|
+| ``clearqueue`` | Clear Queue of Music System of Tamako
+| ``filter`` | Apply A filter to the song
+| ``filters`` | Get a list of filters
 | ``loop`` | Toggle Loop of the Music system of Tamako
 | ``nowplaying`` | Show the currently playing music
 | ``pause`` | Pause the current music playing
 | ``play`` | Play songs
 | ``queue`` | Check the current queue of music
-| ``removesong`` | Remove a Song from  Music system of Tamako
 | ``resume`` | Resume the paused music
-| ``seek`` | Seek a song from  Music system of Tamako
 | ``shuffle`` | Shuffle the current queue
 | ``skip`` | Skip the current Playing song
 | ``stop`` | Stop Tamako from playing music
