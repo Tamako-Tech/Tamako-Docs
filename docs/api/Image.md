@@ -1,15 +1,15 @@
 ---
-id: animalfactapi
-title: Animal API
+id: imageapi
+title: Image API
 description: Usage of our Public API
 hide_title: False
-sidebar_label: Animal Fact
+sidebar_label: Image Api
 ---
 
 # Get A Fact
 ```
 
-https://api.tamako.tech/api/animalfact
+https://api.tamako.tech/api/image
 
 ```
 
@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 
   | Parameter | type | Value |
   |-|-|-|
-  | /name | `string` | Animal Name |
+  | /name | `string` | type |
 
   </TabItem>
 
@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
   ```
 
-  https://api.tamako.tech/api/animalfact/panda
+  https://api.tamako.tech/api/image/bird
 
   ```
 
@@ -45,21 +45,21 @@ import TabItem from '@theme/TabItem';
 ```
 {
   "api":"TamakoBot API",
-  "type":"Anime Quote API",
+  "type":"Image API",
   "args":{
-    "name":"panda",
+    "name":"bird",
     },
-  "fact":"response by the api"
+  "url":"response by the api"
 }
 ```
 
 <br/>
-<img src={require('../assets/reddot.png').default} height='15'/> No Name Provided
+<img src={require('../assets/reddot.png').default} height='15'/> No Category Provided
 
 ```
 {
   "api":"TamakoBot API",
-  "type":"Anime Quote API",
+  "type":"Image API",
   "args":{
     "name":"null",
     },
@@ -77,16 +77,13 @@ import TabItem from '@theme/TabItem';
 | Accepted Values |
 |-----------------|
 | bird            |
-| bunny           |
 | cat             |
 | dog             |
+| dog             |
 | fox             |
-| giraffe         |
-| kangaroo        |
+| koala            |
 | panda           |
-| racoon          |
-| elephant        |
-| whale           |
+| redpanda          |
 
 # Official Wrappers 
 
