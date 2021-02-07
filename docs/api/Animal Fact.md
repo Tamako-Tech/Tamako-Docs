@@ -9,7 +9,7 @@ sidebar_label: Animal Fact
 # Get A Fact
 ```
 
-https://api.tamako.tech/api/animalfact/
+https://api.tamako.tech/api/animalfact
 
 ```
 
@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 
   | Parameter | type | Value |
   |-|-|-|
-  | name | `string` | Animal Name |
+  | /name | `string` | Animal Name |
 
   </TabItem>
 
