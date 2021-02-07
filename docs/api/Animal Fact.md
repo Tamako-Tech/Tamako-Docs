@@ -9,7 +9,7 @@ sidebar_label: Animal Fact
 # Get A Fact
 ```
 
-https://api.tamako.tech/api/animalfact
+https://api.tamako.tech/api/animalfact/
 
 ```
 
@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
   ```
 
-  https://api.tamako.tech/api/animalfact?name=panda
+  https://api.tamako.tech/api/animalfact/panda
 
   ```
 
@@ -76,16 +76,16 @@ import TabItem from '@theme/TabItem';
 
 | Accepted Values |
 |-----------------|
-| Dog             |
-| Cat             |
-| panda           |
-| fox             |
 | bird            |
-| koala           |
+| bunny           |
+| cat             |
+| dog             |
+| fox             |
+| giraffe         |
 | kangaroo        |
+| panda           |
 | racoon          |
 | elephant        |
-| girafee         |
 | whale           |
 
 # Official Wrappers 
