@@ -1,15 +1,15 @@
 ---
-id: lyricsapi
-title: Lyrics API
+id: roleplayapi
+title: RolePlay API
 description: Usage of our Public API
 hide_title: False
-sidebar_label: lyrics
+sidebar_label: RolePlay Api
 ---
 
-# Get Lyrics
+# Get A Fact
 ```
 
-https://api.tamako.tech/api/lyrics
+https://api.tamako.tech/api/roleplay
 
 ```
 
@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 
   | Parameter | type | Value |
   |-|-|-|
-  | name | `string` | Name of Song |
+  | /type | `string` | type |
 
   </TabItem>
 
@@ -36,36 +36,32 @@ import TabItem from '@theme/TabItem';
 
   ```
 
-  https://api.tamako.tech/api/lyrics?name=songname
+  https://api.tamako.tech/api/roleplay/hug
 
   ```
 
-  <img src={require('../assets/greendot.png').default} height='15'/> Status OK
+  <img src={require('../assets/greendot.png').default} height='15'/>Status OK
 
 ```
 {
   "api":"TamakoBot API",
-  "type":"Anime Quote API",
+  "type":"Roleplay API",
   "args":{
-    "name":"name",
+    "name":"hug",
     },
-  "name":"Title of Song",
-  "artist": "Song Artist",
-  "lyrics": "Lyrics of the Song",
-  "album-art": "link to the album art",
-  "link": "Link to the Lyrics"
+  "url":"response by the api"
 }
 ```
 
 <br/>
-<img src={require('../assets/reddot.png').default} height='15'/> No Name Provided
+<img src={require('../assets/reddot.png').default} height='15'/> No Category Provided
 
 ```
 {
   "api":"TamakoBot API",
-  "type":"Anime Quote API",
+  "type":"RolePlay API",
   "args":{
-    "name": "null",
+    "name":"null",
     },
   "error":"missing_arguements"
 }
@@ -73,9 +69,29 @@ import TabItem from '@theme/TabItem';
 
   </TabItem>
 </Tabs>
+
 # Accepted Values
 
-Lyrics of Song
+`name` can be any of the following:
+
+| Accepted Values |
+|-----------------|
+| baka            |
+| blush           |
+| cry             |
+| disgust         |
+| feed            |
+| happy           |
+| holdhands       |
+| hug             |
+| kiss            |
+| pat             |
+| poke            |
+| slap            |
+| sleep           |
+| smug            |
+| wave            |
+| wink            |
 
 # Official Wrappers 
 
