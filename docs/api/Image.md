@@ -76,14 +76,16 @@ import TabItem from '@theme/TabItem';
 
 | Accepted Values |
 |-----------------|
+| tamako          |
+| mai             |
 | bird            |
 | cat             |
 | dog             |
 | dog             |
 | fox             |
-| koala            |
+| koala           |
 | panda           |
-| redpanda          |
+| redpanda        |
 
 # Official Wrappers 
 
