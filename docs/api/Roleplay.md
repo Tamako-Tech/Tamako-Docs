@@ -81,7 +81,7 @@ import TabItem from '@theme/TabItem';
 | blush |
 | celebrate |
 | cry |
-| dance
+| dance |
 | disgust |
 | eat |
 | explode |
