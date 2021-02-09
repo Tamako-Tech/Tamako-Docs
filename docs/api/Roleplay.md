@@ -76,24 +76,37 @@ import TabItem from '@theme/TabItem';
 
 | Accepted Values |
 |-----------------|
-| baka            |
-| blush           |
-| cry             |
-| disgust         |
-| feed            |
-| happy           |
-| holdhands       |
-| hug             |
-| kiss            |
-| pat             |
-| poke            |
-| slap            |
-| sleep           |
-| smug            |
-| wave            |
-| wink            |
+| baka |
+| bite |
+| blush |
+| celebrate |
+| cry |
+| dance
+| disgust |
+| eat |
+| explode |
+| feed |
+| fistbump |
+| happy |
+| highfive |
+| holdhands |
+| hug |
+| inhale |
+| kill |
+| kiss |
+| lick |
+| midfing |
+| pat |
+| poke |
+| punch |
+| slap |
+| sleep |
+| smug |
+| tickle |
+| wave |
+| wink |
 
-# Official Wrappers 
+# Official Wrappers
 
 You can easily use our API Wrappers to interact with Tamako-API <br/>
 [Node.js](https://www.npmjs.com/package/tamako-api) <br/>
