@@ -553,6 +553,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``challenger`` | Draws an image or a user's avatar over Smash Bros.'s "Challenger Approaching" screen.
 | ``change-my-mind`` | Sends a "Change My Mind" meme with the text of your choice.
 | ``chi-idea`` | Sends a "Daddy, I've got an idea!" Takagi-san meme with the text of your choice.
+| ``crush`` | Draws an image or a user's avatar as Wolverine's crush.
 | ``cursed-sponge`` | Sends a cursed sponge duplicated however many times you want.
 | ``dear-liberals`` | Sends a "Dear Liberals" meme with words of your choice.
 | ``deep-fry`` | Draws an image or a user's avatar but deep-fried.
@@ -669,6 +670,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``rejected`` | Draws a "rejected" stamp over an image or a user's avatar.
 | ``resize`` | Draws an image or a user's avatar resized to the size you want.
 | ``robohash`` | Creates a robot based on the text you provide.
+| ``rotate`` | Draws an image or a user's avatar but rotated a number of degrees.
 | ``sepia`` | Draws an image or a user's avatar in sepia.
 | ``shields-io-badge`` | Creates a badge from shields.io.
 | ``silhouette`` | Draws a silhouette of an image or a user's avatar.
@@ -684,6 +686,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``subtitle`` | Adds subtitles to an image.
 | ``swirl`` | Draws an image or a user's avatar but swirled.
 | ``tint`` | Draws an image or a user's avatar but tinted a specific color.
+| ``trainer-card`` | Creates a trainer card for a Pokémon trainer.
 | ``tweet`` | Sends a Twitter tweet with the user and text of your choice.
 | ``undertale`` | Sends a text box from Undertale with the quote and character of your choice.
 | ``wanted`` | Draws an image or a user's avatar over a wanted poster.
@@ -697,6 +700,7 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ------- | ----------- |
 | ``avatar-fusion`` | Draws a a user's avatar over a user's avatar.
 | ``chocolate-milk`` | Draws a user's avatar holding chocolate milk.
+| ``eject`` | Ejects a user in Among Us Style.
 | ``fire`` | Burns a user's avatar.
 | ``hat`` | Draws a hat over a user's avatar.
 | ``he-lives-in-you`` | Draws a user's avatar over Simba from The Lion King's reflection.
