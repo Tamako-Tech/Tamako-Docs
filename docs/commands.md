@@ -143,6 +143,7 @@ There are a total of 726 commands
 | ``remind`` | Sets a reminder.
 | ``delete-reminder`` | Deletes your reminder.
 | ``help`` | Displays a list of available commands, or detailed information for a specific command.
+| ``snipe`` | Display the last deleted message by any user in a channel.
 | ``high-scores`` | Responds with the high scores the bot has saved.
 | ``invite`` | Responds with the bot's invite links.
 | ``leaderboard`` | Shows the top xp earners for this server
