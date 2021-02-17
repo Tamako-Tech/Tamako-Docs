@@ -154,7 +154,6 @@ There are a total of 726 commands
 | ``schedule`` | Displays the list of currently airing anime for todays date or given weekday.
 | ``stats`` | Show Statistics of the bot
 | ``suggest`` | Suggest Something for the server
-| ``uses`` | Responds with a command's usage stats.
 | ``vote`` | Gives the link to vote the bot
 | ``join`` | Joins your voice channel.
 | ``leave`` | Leaves the current voice channel.
@@ -200,7 +199,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``emoji-list`` | Responds with a list of the server's custom emoji.
 | ``emoji`` | Display the larger version of the supplied emoji
 | ``first-message`` | Responds with the first message ever sent to a channel.
-| ``id`` | Responds with a user's ID.
 | ``message-source`` | Responds with a codeblock containing a message's contents.
 | ``message`` | Responds with detailed information on a message.
 | ``permissionsfor`` | List the server permissions of mentioned user or provided ID
@@ -220,16 +218,13 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``doomsday-clock`` | Responds with the current time of the Doomsday Clock.
 | ``friday-the-13th`` | Determines if today is Friday the 13th.
 | ``google-doodle`` | Responds with a Google Doodle, either the latest one or a random one from the past.
-| ``holidays`` | Responds with today's holidays.
 | ``horoscope`` | Responds with today's horoscope for a specific Zodiac sign.
 | ``humble-bundle`` | Responds with the current Humble Bundle.
-| ``is-tuesday`` | Determines if today is Tuesday.
 | ``iss`` | Responds with where the Internation Space Station currently is.
 | ``neko-atsume-password`` | Responds with today's Neko Atsume password.
 | ``people-in-space`` | Responds with the people currently in space.
 | ``time`` | Responds with the current time in a particular location.
 | ``today-in-history`` | Responds with an event that occurred today in history.
-| ``us-election`` | Responds with the odds of each canidate winning the presidential election, according to 538.
 | ``year-progress`` | Responds with the progress of the current year.
 
 ## Search For Stuff
@@ -401,7 +396,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 | ``superpower`` | Responds with a random superpower.
 | ``the-onion`` | Responds with a random "The Onion" article.
 | ``this-for-that`` | So, basically, it's like a bot command for this dumb meme.
-| ``word`` | Responds with a random word.
 | ``yo-mama`` | Responds with a random "Yo Mama" joke.
 
 #### Random Image
@@ -872,7 +866,6 @@ To use it you can either type ```t!soundboard [libray-name]``` or <br/>Type ```t
 | Command | Description |
 | ------- | ----------- |
 | ``portal-send`` | Send a message to a portal channel.
-| ``rename-all`` | Renames every member of the server. (Owner-Only)
 | ``respect`` | Find a specific pokemon using the pokédex
 | ``screenshot`` | Takes a screenshot of any webpage.
 | ``smilebasic`` | Responds with a ZIP file for a SmileBASIC project.
