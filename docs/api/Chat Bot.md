@@ -7,10 +7,9 @@ sidebar_label: ChatBot
 ---
 
 # Get the Authorisation Keys
-You can Utilise Our Chatbot API but for that you will need to Request Authorisation Key and ID
-For That, simply sign up on this [Website](https://appcenter.theskyfallen.com/) and create an app
+You can utilise Tamako Chat API as a part of free Skyfallen Developer Suite. The use of the API is free, but you need to get authorisation keys that prevent spamming and attacks. The process is quite simple, go to [Skyfallen Developer Center](https://devcenter.theskyfallen.com/), login / sign up, complete your profile and send it for validation. When we think you are a real person, your account will be approved and you will get access to app creation. From that point, just make an app and enable Tamako API for it. This will give you your keys.
 
-# Get Cakes
+# Send A Message
 
 Endpoint is
 https://api.tamako.tech/api/chat
@@ -30,9 +29,9 @@ import TabItem from '@theme/TabItem';
 
   | Parameter | Type | Default | Optional | Description |
   | - | - | - | :-: | - |
-  | username | string | none | ❌ | Your Username on the [Website](https://appcenter.theskyfallen.com/)
-  | appsecret | string | none | ❌ | Your AppSecret on the [Website](https://appcenter.theskyfallen.com/)
-  | appid | string | none | ❌ | Your AppID on the [Website](https://appcenter.theskyfallen.com/)
+  | prvid | string | none | ❌ | Your Provision ID on the [SDC](https://devcenter.theskyfallen.com/)
+  | svcid | string | none | ❌ | Your Service ID on the [SDC](https://devcenter.theskyfallen.com/)
+  | svcsecret | string | none | ❌ | Your Service Secret on the [SDC](https://devcenter.theskyfallen.com/)
   | message | string | none | ❌ | The message you want the chatbot to reply with
   | user | string | none | ❌ | Unique ID to tell users using the endpoint apart
   | name | string | Tamako | ✔️ | The name of the chatbot
@@ -46,18 +45,18 @@ import TabItem from '@theme/TabItem';
   <TabItem value="response">
 
   ```
-  https://api.tamako.tech/api/chat?username=authkey&appsecret=appsecret&appid=appid&name=Sakuta&gender=male&prefix=t!&dev=Bear&user=userid&message=message
+  https://api.tamako.tech/api/chat?prvid=com.theskyfallen.exampleapp.tamako-api&svcid=******&svcsecret=****&name=Sakuta&gender=male&prefix=t!&dev=Bear&user=userid&message=message
   ```
 
   <img src={require('../assets/greendot.png').default} height='15'/>Status OK
 
 ```
 {
-  "api":"TamakoBot API",
+  "api":"TamakoBot API V2",
   "args":{
-      "username":"username",
-      "appid":"appid",
-      "appsecret":"appsecret",
+      "prvid":"om.theskyfallen.exampleapp.tamako-api",
+      "svcid":"****",
+      "svcsecret":"*****",
       "userid":"userid",
       "gender":"male",
       "name":"Sakuta",
@@ -70,13 +69,13 @@ import TabItem from '@theme/TabItem';
 <br/>
 <img src={require('../assets/reddot.png').default} height='15'/> Wrong Authentication
 
-```title="  https://api.tamako.tech/api/chat?username=authkey&appsecret=appsecret&appid=appid&name=Sakuta&gender=male&prefix=t!&dev=Bear&user=userid&message=message"
+```title="  https://api.tamako.tech/api/chat?prvid=com.theskyfallen.exampleapp.tamako-api&svcid=******&svcsecret=****&name=Sakuta&gender=male&prefix=t!&dev=Bear&user=userid&message=message"
 {
-"api":"TamakoBot API",
+"api":"TamakoBot API V2",
 "args":{
-      "username":"username",
-      "appid":"appid",
-      "appsecret":"appsecret",
+      "prvid":"om.theskyfallen.exampleapp.tamako-api",
+      "svcid":"****",
+      "svcsecret":"*****",
       "userid":"userid",
       "gender":"male",
       "name":"Sakuta",
@@ -92,9 +91,9 @@ import TabItem from '@theme/TabItem';
 {
 "api":"TamakoBot API",
 "args":{
-      "username":"username",
-      "appid":"appid",
-      "appsecret":"appsecret",
+      "prvid":"om.theskyfallen.exampleapp.tamako-api",
+      "svcid":"****",
+      "svcsecret":"*****",
       "userid":null,
       "gender":"male",
       "name":"Sakuta",
