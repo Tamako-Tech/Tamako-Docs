@@ -604,7 +604,6 @@ Need to have xp system enabled in the guild, you can do that by doing `t!xptoggl
 #### Image Manipulation
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | ------- | ----------- |
-
 | ``ace-attorney`` | Sends a text box from Ace Attorney with the quote and character of your choice.
 | ``achievement`` | Sends a Minecraft achievement with the text of your choice.
 | ``adorable`` | Creates an adorable avatar based on the text you provide.
