@@ -29,9 +29,6 @@ import TabItem from '@theme/TabItem';
 
   | Parameter | Type | Default | Optional | Description |
   | - | - | - | :-: | - |
-  <!-- | prvid | string | none | ❌ | Your Provision ID on the [SDC](https://devcenter.theskyfallen.com/)
-  | svcid | string | none | ❌ | Your Service ID on the [SDC](https://devcenter.theskyfallen.com/)
-  | svcsecret | string | none | ❌ | Your Service Secret on the [SDC](https://devcenter.theskyfallen.com/) -->
   | message | string | none | ❌ | The message you want the chatbot to reply with
   | userid | Number 18 Digits | none | ✔️ | Unique ID to tell users using the endpoint apart
   | name | string | Tamako | ✔️ | The name of the chatbot
@@ -61,24 +58,6 @@ import TabItem from '@theme/TabItem';
 ```
 
 <br/>
-<!-- <img src={require('../assets/reddot.png').default} height='15'/> Wrong Authentication
-
-```title="  https://api.tamako.tech/api/chat?prvid=com.theskyfallen.exampleapp.tamako-api&svcid=******&svcsecret=****&name=Sakuta&gender=male&prefix=t!&dev=Bear&user=userid&message=message"
-{
-"api":"TamakoBot API V2",
-"args":{
-      "prvid":"om.theskyfallen.exampleapp.tamako-api",
-      "svcid":"****",
-      "svcsecret":"*****",
-      "userid":"userid",
-      "gender":"male",
-      "name":"Sakuta",
-      "incoming_message":"message
-  },
-"error":"null"
-}
-```
-<br/> -->
 <img src={require('../assets/reddot.png').default} height='15'/> Missing Query, check if its right
 
 ```
