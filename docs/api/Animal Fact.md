@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 
   | Parameter | type | Value |
   |-|-|-|
-  | /name | `string` | Animal Name |
+  | animal | `string` | Animal Name |
 
   </TabItem>
 
@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
   ```
 
-  https://api.tamako.tech/api/animalfact/panda
+  https://api.tamako.tech/api/animalfact?animal=panda
 
   ```
 
@@ -44,13 +44,11 @@ import TabItem from '@theme/TabItem';
 
 ```
 {
-  "api":"TamakoBot API",
-  "type":"Anime Quote API",
-  "args":{
-    "name":"panda",
-    },
-  "fact":"response by the api"
+  "Api": "Tamako API",
+  "Type": "Animal Fact API",
+  "fact": "The fact here"
 }
+
 ```
 
 <br/>
@@ -58,12 +56,10 @@ import TabItem from '@theme/TabItem';
 
 ```
 {
-  "api":"TamakoBot API",
-  "type":"Anime Quote API",
-  "args":{
-    "name":"null",
-    },
-  "error":"missing_arguements"
+  "Api": "Tamako API",
+  "Type": "Animal Fact API",
+  "message": "Animal not found!",
+  "available": [<>]
 }
 ```
 
@@ -72,7 +68,7 @@ import TabItem from '@theme/TabItem';
 
 # Accepted Values
 
-`name` can be any of the following:
+`animal` can be any of the following:
 
 | Accepted Values |
 |-----------------|

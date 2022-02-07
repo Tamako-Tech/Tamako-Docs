@@ -44,12 +44,9 @@ import TabItem from '@theme/TabItem';
 
 ```
 {
-  "api":"TamakoBot API",
-  "type":"Roleplay API",
-  "args":{
-    "name":"hug",
-    },
-  "url":"response by the api"
+  "Api": "Tamako API",
+  "Type": "Roleplay API",
+  "url": "<response by api>"
 }
 ```
 
@@ -57,14 +54,7 @@ import TabItem from '@theme/TabItem';
 <img src={require('../assets/reddot.png').default} height='15'/> No Category Provided
 
 ```
-{
-  "api":"TamakoBot API",
-  "type":"RolePlay API",
-  "args":{
-    "name":"null",
-    },
-  "error":"missing_arguements"
-}
+404 status code
 ```
 
   </TabItem>

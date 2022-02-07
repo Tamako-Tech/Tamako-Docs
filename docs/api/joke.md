@@ -31,9 +31,9 @@ import TabItem from '@theme/TabItem';
 
 ```
 {
-  "api":"TamakoBot API",
-  "type":"Joke API",
-  "joke":"The best way to stop a charging bull is to take away his credit card"
+  "Api": "Tamako API",
+  "Type": "Joke API",
+  "joke": "<response from api>"
 }
 ```
   </TabItem>

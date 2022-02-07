@@ -24,7 +24,7 @@ import TabItem from '@theme/TabItem';
   ]}>
   <TabItem value="request">
 
-  Query Parameters
+  Parameters
 
   | Parameter | type | Value |
   |-|-|-|
@@ -44,12 +44,9 @@ import TabItem from '@theme/TabItem';
 
 ```
 {
-  "api":"TamakoBot API",
-  "type":"Image API",
-  "args":{
-    "name":"bird",
-    },
-  "url":"response by the api"
+  "Api": "Tamako API",
+  "Type": "Images API",
+  "url": "<Response by Api>"
 }
 ```
 
@@ -57,14 +54,7 @@ import TabItem from '@theme/TabItem';
 <img src={require('../assets/reddot.png').default} height='15'/> No Category Provided
 
 ```
-{
-  "api":"TamakoBot API",
-  "type":"Image API",
-  "args":{
-    "name":"null",
-    },
-  "error":"missing_arguements"
-}
+404 status code
 ```
 
   </TabItem>
